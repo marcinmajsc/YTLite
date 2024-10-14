@@ -75,8 +75,8 @@
 "RemoveLiveVidsDesc" = "Usuwa filmy na żywo z zakładki Główna.";
 "RemoveHorizontalFeeds" = "Usuń poziome kanały";
 "RemoveHorizontalFeedsDesc" = "Usuwa wszystkie poziome kanały (Wiadomości, Kontynuuj oglądanie, Kolekcja postów itp.) z zakładki Główna.";
-"RemoveMoreTopics" = "Usuń „Więcej tematów”";
-"RemoveMoreTopicsDesc" = "Usuwa „Więcej tematów” z kanału.";
+"RemoveMoreTopics" = "Usuń \"Więcej tematów\"";
+"RemoveMoreTopicsDesc" = "Usuwa \"Więcej tematów\" z kanału.";
 "FixAlbums" = "Napraw okładki";
 "FixAlbumsDesc" = "Naprawia wyświetlanie okładek dla użytkowników z Rosji.";
 
@@ -131,7 +131,7 @@
 "NoRelatedVids" = "Brak powiązanych filmów w nakładce";
 "NoRelatedVidsDesc" = "Usuwa powiązane filmy wyświetlane w nakładce przez przesunięcie w górę.";
 "NoPromotionCards" = "Ukryj karty Promocji";
-"NoPromotionCardsDesc" = "Ukrywa kartę „Zawiera promocje płatne” w filmach z promocjami.";
+"NoPromotionCardsDesc" = "Ukrywa kartę \"Zawiera promocje płatne\" w filmach z promocjami.";
 "NoWatermarks" = "Ukryj znaki wodne";
 "NoWatermarksDesc" = "Ukrywa znaki wodne kanałów w odtwarzaczu.";
 "DisableAmbientMode" = "Wyłącz tryb ambient";
@@ -285,22 +285,22 @@
 "RemoveInlineCommentDesc" = "Usuwa sekcję komentarzy pod odtwarzaczem.";
 "RemoveCommentGuidelines" = "Usuń wytyczne";
 "RemoveCommentGuidelinesDesc" = "Usuwa przypięte wytyczne z sekcji komentarzy.";
-"RemovePlayNext" = "Usuń „Odtwórz następne w kolejce”";
-"RemovePlayNextDesc" = "Usuwa opcję „Odtwórz następne w kolejce” z menu.";
-"RemoveDownloadMenu" = "Usuń „Pobierz”";
-"RemoveDownloadMenuDesc" = "Usuwa opcję „Pobierz” z menu.";
-"RemoveWatchLaterMenu" = "Usuń „Zapisz na później”";
-"RemoveWatchLaterMenuDesc" = "Usuwa opcję „Zapisz na później” z menu.";
-"RemoveSaveToPlaylistMenu" = "Usuń „Zapisz do playlisty”";
-"RemoveSaveToPlaylistMenuDesc" = "Usuwa opcję „Zapisz do playlisty” z menu.";
-"RemoveShareMenu" = "Usuń „Udostępnij”";
-"RemoveShareMenuDesc" = "Usuwa opcję „Udostępnij” z menu.";
-"RemoveNotInterestedMenu" = "Usuń „Nie interesuje mnie to”";
-"RemoveNotInterestedMenuDesc" = "Usuwa opcję „Nie interesuje mnie to” z menu.";
-"RemoveDontRecommendMenu" = "Usuń „Nie polecaj kanału”";
-"RemoveDontRecommendMenuDesc" = "Usuwa opcję „Nie polecaj kanału” z menu.";
-"RemoveReportMenu" = "Usuń „Zgłoś”";
-"RemoveReportMenuDesc" = "Usuwa opcję „Zgłoś” z menu.";
+"RemovePlayNext" = "Usuń \"Odtwórz następne w kolejce\"";
+"RemovePlayNextDesc" = "Usuwa opcję \"Odtwórz następne w kolejce\" z menu.";
+"RemoveDownloadMenu" = "Usuń \"Pobierz\"";
+"RemoveDownloadMenuDesc" = "Usuwa opcję \"Pobierz\" z menu.";
+"RemoveWatchLaterMenu" = "Usuń \"Zapisz na później\"";
+"RemoveWatchLaterMenuDesc" = "Usuwa opcję \"Zapisz na później\" z menu.";
+"RemoveSaveToPlaylistMenu" = "Usuń \"Zapisz do playlisty\"";
+"RemoveSaveToPlaylistMenuDesc" = "Usuwa opcję \"Zapisz do playlisty\" z menu.";
+"RemoveShareMenu" = "Usuń \"Udostępnij\"";
+"RemoveShareMenuDesc" = "Usuwa opcję \"Udostępnij\" z menu.";
+"RemoveNotInterestedMenu" = "Usuń \"Nie interesuje mnie to\"";
+"RemoveNotInterestedMenuDesc" = "Usuwa opcję \"Nie interesuje mnie to\" z menu.";
+"RemoveDontRecommendMenu" = "Usuń \"Nie polecaj kanału\"";
+"RemoveDontRecommendMenuDesc" = "Usuwa opcję \"Nie polecaj kanału\" z menu.";
+"RemoveReportMenu" = "Usuń \"Zgłoś\"";
+"RemoveReportMenuDesc" = "Usuwa opcję \"Zgłoś\" z menu.";
 
 /* Ustawienia SponsorBlock */
 "EnableSponsorBlock" = "Włącz";
@@ -422,10 +422,10 @@
 "ShortsOnlyWarning" = "Czy na pewno chcesz aktywować ten tryb?\n\nW tym trybie będziesz mógł oglądać tylko filmy Shorts i nie będziesz mógł nic więcej zrobić.\n\nMożesz wyłączyć tryb tylko Shorts, długo naciskając dwoma palcami w odtwarzaczu Shorts.";
 "ShortsModeTurnedOff" = "Tryb tylko Shorts został wyłączony";
 
-"AddLibraryTab" = "Przywróć kartę „Ty”";
-"RemoveLibraryTab" = "Usuń kartę „Ty”";
-"LibraryAdded" = "Karta „Ty” została przywrócona";
-"LibraryRemoved" = "Karta „Ty” została usunięta";
+"AddLibraryTab" = "Przywróć kartę \"Ty\"";
+"RemoveLibraryTab" = "Usuń kartę \"Ty\"";
+"LibraryAdded" = "Karta \"Ty\" została przywrócona";
+"LibraryRemoved" = "Karta \"Ty\" została usunięta";
 
 "Yes" = "Tak";
 "No" = "Nie";
