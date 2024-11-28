@@ -15,6 +15,12 @@ on:
         required: true
         type: string
 
+      ytlite_url:
+        description: "(Optional) Direct URL to YTLite deb"
+        default: null
+        required: false
+        type: string
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -22,7 +28,7 @@ concurrency:
 jobs:
   build:
     name: 
-    runs-on: macos-latest
+    runs-on: macos-12
     permissions:
       contents: write
 
@@ -43,7 +49,7 @@ jobs:
         id: theos
         uses: actions/cache@v4.0.1
         env:
-          cache-name: theos_cache_67db2ab
+          cache-name: theos_cache
         with:
           path: theos/
           key: ${{ env.cache-name }}
@@ -54,7 +60,7 @@ jobs:
         uses: actions/checkout@v4.1.7
         with:
           repository: theos/theos
-          ref: 67db2ab8d950910161730de77c322658ea3e6b44
+          ref: 3da31488281ecf4394d10302d2629607f4a1aa07
           path: ${{ github.workspace }}/theos
           submodules: recursive
 
@@ -63,27 +69,35 @@ jobs:
         run: |
           git clone --quiet -n --depth=1 --filter=tree:0 https://github.com/theos/sdks/
           cd sdks
-          git sparse-checkout set --no-cone iPhoneOS16.5.sdk
+          git sparse-checkout set --no-cone iPhoneOS13.7.sdk
           git checkout
           mv *.sdk $THEOS/sdks
         env:
           THEOS: ${{ github.workspace }}/theos
 
       - name: Install cyan
-        run: pipx install --force https://github.com/asdfzxcvbn/pyzule-rw/archive/main.zip
-
-      - name: Hide sensitive inputs
-        uses: levibostian/action-hide-sensitive-inputs@v1
+        run: pip install https://github.com/asdfzxcvbn/pyzule-rw/archive/main.zip
 
       - name: Download YouTube
         id: download_youtube
         run: wget "${{ inputs.ipa_url }}" --no-verbose -O ${{ github.workspace }}/youtube.ipa
 
+      - name: Hash YTLite url
+        if: ${{ inputs.ytlite_url }}
+        run: |
+          URL_YTPLUS="$(jq -r '.inputs.ytlite_url' $GITHUB_EVENT_PATH)"
+          echo ::add-mask::$URL_YTPLUS
+          echo URL_YTPLUS=$URL_YTPLUS >> $GITHUB_ENV
+
       - name: Download YouTube Plus
         id: download_ytp
         run: |
-          deb_url="https://github.com/dayanch96/YTLite/releases/download/v${{ inputs.tweak_version }}/com.dvntm.ytlite_${{ inputs.tweak_version }}_iphoneos-arm.deb"
-          wget "$deb_url" --no-verbose -O ${{ github.workspace }}/ytplus.deb
+          if [[ -n "${{ env.URL_YTPLUS }}" ]]; then
+            wget "${{ env.URL_YTPLUS }}" --quiet --no-verbose -O ${{ github.workspace }}/ytplus.deb
+          else
+            deb_url="https://github.com/dayanch96/YTLite/releases/download/v${{ inputs.tweak_version }}/com.dvntm.ytlite_${{ inputs.tweak_version }}_iphoneos-arm.deb"
+            wget "$deb_url" --no-verbose -O ${{ github.workspace }}/ytplus.deb
+          fi
 
       - name: Clone Open in YouTube (Safari extension)
         run: |
@@ -122,11 +136,6 @@ jobs:
           cd ${{ github.workspace }}
           git clone --quiet --depth=1 https://github.com/PoomSmart/Return-YouTube-Dislikes.git
 
-      - name: Clone YouGroupSettings
-        run: |
-          cd ${{ github.workspace }}
-          git clone --quiet --depth=1 https://github.com/PoomSmart/YouGroupSettings.git
-
       - name: Build YouPiP
         run: |
           cd ${{ github.workspace }}/YouPiP
@@ -151,18 +160,10 @@ jobs:
         env:
           THEOS: ${{ github.workspace }}/theos
 
-      - name: Build YouGroupSettings
-        run: |
-          cd ${{ github.workspace }}/YouGroupSettings
-          make clean package DEBUG=0 FINALPACKAGE=1
-          mv packages/*.deb ${{ github.workspace }}/ygs.deb
-        env:
-          THEOS: ${{ github.workspace }}/theos
-
       - name: Inject tweaks into IPA
         run: |
           cyan -i youtube.ipa -o YouTubePlus_${{ inputs.tweak_version }}_Tweaks.ipa \
-            -uwf ytplus.deb OpenYoutubeSafariExtension.appex youpip.deb ytuhd.deb ryd.deb ygs.deb
+            -uwf ytplus.deb OpenYoutubeSafariExtension.appex youpip.deb ytuhd.deb ryd.deb
 
       - name: Upload to GitHub Releases
         uses: softprops/action-gh-release@v2.0.1
