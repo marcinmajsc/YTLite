@@ -30,7 +30,13 @@
 "SelectAudioTrack" = "Seleccionar pista de audio";
 "EnglishNotFound" = "Pista de audio en inglés no encontrada";
 
-"Captions" = "Subtítulos";
+"Audios" = "Audios";
+"AudioDRC" = "Preferir un volumen estable";
+"AudioDRCDesc" = "El gestor de descargas dará prioridad al audio con volumen estable (compresión de rango dinámico) si dicho audio está disponible.";
+
+"CaptionsAndThumbnails" = "Títulos y miniaturas";
+"EmbedThumbnailsToVideos" = "Incrustar miniaturas";
+"EmbedThumbnailsToVideosDesc" = "Incrusta la miniatura del vídeo como miniatura de metadatos.";
 "EmbedCapsToVideos" = "Incrustar subtítulos";
 "EmbedCapsToVideosDesc" = "Incrusta los subtítulos seleccionados en los vídeos.";
 "EmbedAutoGenCaps" = "Subtítulos autogenerados/traducidos";
@@ -77,6 +83,8 @@
 "RemoveHorizontalFeedsDesc" = "Elimina todos los feeds horizontales (Noticias, Continuar viendo, Colección de publicaciones, etc.) de la pestaña de inicio.";
 "RemoveMoreTopics" = "Eliminar \"Más temas\"";
 "RemoveMoreTopicsDesc" = "Elimina \"Más temas\" del feed.";
+"RemovePlayables" = "Quitar reproducibles";
+"RemovePlayablesDesc" = "Elimina reproducibles (minijuegos) del feed.";
 "FixAlbums" = "Corregir portadas";
 "FixAlbumsDesc" = "Corrige la visualización de portadas para usuarios de Rusia.";
 
@@ -96,6 +104,10 @@
 "Player.Interface" = "Interfaz";
 "SpeedControls" = "Controles de velocidad";
 "SpeedControlsDesc" = "Muestra los botones de control de velocidad en la superposición";
+"MuteButton" = "Botón silenciar";
+"MuteButtonDesc" = "Muestra un botón para silenciar o desactivar el volumen de la superposición.";
+"LockButton" = "Botón de bloqueo";
+"LockButtonDesc" = "Muestra un botón para bloquear rápidamente la pantalla superpuesta y cambiar al modo de pantalla completa.";
 "HideAutoplay" = "Ocultar interruptor de reproducción automática";
 "HideAutoplayDesc" = "Oculta el interruptor de reproducción automática de la superposición.";
 "HideSubs" = "Ocultar botón de subtítulos";
@@ -140,6 +152,33 @@
 "VideoEndTimeDesc" = "Añade la hora final de reproducción del vídeo a la barra del reproductor.";
 "24hrFormat" = "Formato de 24 horas";
 "24hrFormatDesc" = "Muestra la hora de finalización en formato de 24 horas.";
+"NoRelatedWatchNexts" = "Ocultar todos los vídeos del reproductor";
+"NoRelatedWatchNextsDesc" = "Oculta todos los vídeos debajo del reproductor, dejando sólo la información del vídeo y la sección de comentarios.";
+"RemoveInlineComment" = "Eliminar el comentario en línea";
+"RemoveInlineCommentDesc" = "Elimina la sección de comentarios debajo del reproductor.";
+"NoSubUnderPlayer" = "Eliminar botón \"Suscribirse\"";
+"NoSubUnderPlayerDesc" = "Elimina el botón \"Suscribirse\" debajo del reproductor.";
+"PlayerNoShare" = "Eliminar botón \"Compartir\"";
+"PlayerNoShareDesc" = "Elimina el botón \"Compartir\" debajo del reproductor.";
+"PlayerNoThanks" = "Eliminar botón \"Gracias\"";
+"PlayerNoThanksDesc" = "Elimina el botón \"Gracias\" debajo del reproductor.";
+"PlayerNoRemix" = "Eliminar botón \"Remix\"";
+"PlayerNoRemixDesc" = "Elimina el botón \"Remix\" debajo del reproductor.";
+"PlayerNoDownload" = "Eliminar botón \"Descargar\"";
+"PlayerNoDownloadDesc" = "Elimina el botón \"Descargar\" debajo del reproductor.";
+"PlayerNoClip" = "Eliminar botón \"Clip\"";
+"PlayerNoClipDesc" = "Elimina el botón \"Clip\" debajo del reproductor.";
+"PlayerNoSave" = "Eliminar botón \"Guardar\"";
+"PlayerNoSaveDesc" = "Elimina el botón \"Guardar\" debajo del reproductor.";
+"PlayerNoReport" = "Eliminar botón \"Reportar\"";
+"PlayerNoReportDesc" = "Elimina el botón \"Reportar\" debajo del reproductor.";
+
+"ProgressBarStyle" = "Estilo de la barra de progreso";
+"SolidColor" = "Color sólido";
+"Gradient" = "Degradado";
+"MainColor" = "Color principal";
+"GradientColor" = "Resalte del degradado";
+"ScrubberColor" = "Color del deslizador";
 
 "Player.Actions" = "Acciones";
 "DefaultPlaybackRate" = "Velocidad de reproducción predeterminada";
@@ -216,6 +255,8 @@
 "ShortsToRegularDesc" = "Abre los Shorts como vídeos normales.";
 "RemoveShortsLive" = "Eliminar vídeos en vivo";
 "RemoveShortsLiveDesc" = "Elimina los vídeos en vivo del feed.";
+
+"ShortsInterface" = "Interfaz";
 "HideShortsLogo" = "Ocultar el logo de Shorts";
 "HideShortsLogoDesc" = "Oculta el logo de Shorts en la esquina superior izquierda.";
 "HideShortsSearch" = "Ocultar botón de búsqueda";
@@ -224,9 +265,40 @@
 "HideShortsCameraDesc" = "Oculta el botón de cámara en la superposición de Shorts.";
 "HideShortsMore" = "Ocultar botón Más (⋮)";
 "HideShortsMoreDesc" = "Oculta el botón Más (⋮) en la superposición de Shorts. También se puede acceder manteniendo presionada la pantalla.";
-"HideShortsSubscriptions" = "Ocultar botón de Suscripciones";
-"HideShortsSubscriptionsDesc" = "Oculta el botón de Suscripciones que aparece cuando se pausa un vídeo Shorts.";
 
+"HideCarouselSub" = "Ocultar Suscripciones";
+"HideCarouselSubDesc" = "Elimina el botón de Suscripciones que aparece en estado pausado.";
+"HideCarouselLive" = "Ocultar En vivo";
+"HideCarouselLiveDesc" = "Elimina el botón de En vivo que aparece en estado pausado.";
+"HideCarouselTrends" = "Ocultar Tendencias";
+"HideCarouselTrendsDesc" = "Elimina el botón de Tendencias que aparece en estado pausado.";
+"HideCarouselShop" = "Ocultar Tienda";
+"HideCarouselShopDesc" = "Elimina el botón de Tienda que aparece en estado pausado.";
+
+"HideShortsLike" = "Sin botón Me gusta";
+"HideShortsLikeDesc" = "Elimina el botón Me gusta de la barra de acciones.";
+"HideShortsDislike" = "Sin botón No me gusta";
+"HideShortsDislikeDesc" = "Elimina el botón No me gusta de la barra de acciones.";
+"HideShortsComments" = "Sin botón Comentarios";
+"HideShortsCommentsDesc" = "Elimina el botón de Comentarios de la barra de acciones.";
+"HideShortsShare" = "Sin botón Compartir";
+"HideShortsShareDesc" = "Elimina el botón Compartir de la barra de acciones.";
+"HideShortsRemix" = "Sin botón Remix";
+"HideShortsRemixDesc" = "Elimina el botón Remix de la barra de acciones.";
+"HideShortsSuggestion" = "Sin sugerencias";
+"HideShortsSuggestionDesc" = "Elimina el botón con sugerencias, como Agregar a lista de reproducción, Super Gracias, etc.";
+"HideShortsSubscribe" = "Sin botón Seguir";
+"HideShortsSubscribeDesc" = "Elimina el botón Seguir junto al nombre de usuario.";
+"HideShortsUsername" = "Sin nombre de usuario";
+"HideShortsUsernameDesc" = "Elimina el nombre del canal.";
+"HideShortsDescription" = "Sin descripción";
+"HideShortsDescriptionDesc" = "Elimina la descripción de los Shorts.";
+"HideShortsSource" = "Sin botón de enlace de origen";
+"HideShortsSourceDesc" = "Elimina el botón que navega al video completo u otro video Short.";
+"HideShortsAudio" = "Sin indicador de audio";
+"HideShortsAudioDesc" = "Elimina la línea que indica el audio usado en los Shorts.";
+
+/* Tab bar options */
 "Tabbar" = "Barra de pestañas";
 "Startup" = "Página de inicio";
 "FEwhat_to_watch" = "Inicio";
@@ -236,8 +308,10 @@
 "FElibrary" = "Biblioteca";
 "FEuploads" = "Crear";
 "FEhistory" = "Historial";
+"FEpost_home" = "Posts";
 "VLWL" = "Ver más tarde";
 
+"TranslucentBar" = "Barra de pestañas translúcida";
 "RemoveLabels" = "Eliminar etiquetas";
 "RemoveIndicators" = "Eliminar indicadores";
 
@@ -253,10 +327,10 @@
 "Interface" = "Interfaz";
 "OledTheme" = "Tema Oled";
 "OledThemeDesc" = "Convierte todos los colores oscuros en negro";
+"OledKeyboard" = "Teclado Oled";
+"OledKeyboardDesc" = "Aplica el tema negro oled al teclado oscuro";
 "NoSearchHistory" = "Ocultar el historial de búsqueda";
 "NoSearchHistoryDesc" = "Oculta visualmente el historial de búsqueda y las sugerencias. Nota: El historial de búsqueda seguirá siendo accesible en otros clientes de YouTube.";
-"NoRelatedWatchNexts" = "Ocultar todos los vídeos del reproductor";
-"NoRelatedWatchNextsDesc" = "Oculta todos los vídeos debajo del reproductor, dejando sólo la información del vídeo y la sección de comentarios.";
 "StickSortComments" = "Pegar cabecera de comentarios";
 "StickSortCommentsDesc" = "Los pines ordenan la cabecera de comentarios (Arriba, Más reciente) para que no desaparezca al desplazarse.";
 "HideSortComments" = "Ocultar cabecera de comentarios";
@@ -278,10 +352,10 @@
 "Floating" = "Flotante";
 
 "ContextMenu" = "Menú contextual";
+"NoShareChunk" = "Eliminar identificador de compartición";
+"NoShareChunkDesc" = "Elimina el parámetro \"si=identificador\" de los enlaces compartidos. Una buena alternativa a la opción \"Hoja de compartir nativa\" mientras YouTube sigue mejorando su menú de compartición.";
 "NativeShare" = "Hoja de acciones nativas";
 "NativeShareDesc" = "Utiliza la hoja de uso compartido del sistema para compartir medios.";
-"RemoveInlineComment" = "Eliminar el comentario en línea";
-"RemoveInlineCommentDesc" = "Elimina la sección de comentarios debajo del reproductor.";
 "RemoveCommentGuidelines" = "Eliminar directrices";
 "RemoveCommentGuidelinesDesc" = "Elimina las directrices fijadas de la sección de comentarios.";
 "RemovePlayNext" = "Eliminar \"Reproducir siguiente en cola\"";
@@ -398,9 +472,12 @@
 "Vietnamese" = "Traducción: Vietnamita";
 "Arabic" = "Traducción: Árabe";
 "Turkish" = "Traducción: Turco";
-"Italian" = "Italian localization";
+"Italian" = "Traducción: Italiano";
+"Korean" = "Traducción: Coreano";
+"Polish" = "Traducción: Polaco";
 
 "OpenSourceLibs" = "Bibliotecas de código abierto";
+"SupporterWall" = "Partidarios";
 
 "Preferences" = "%@ preferencias";
 "ManagePreferences" = "Gestión de preferencias";
@@ -425,7 +502,6 @@
 "RemoveLibraryTab" = "Eliminar pestaña \"Tú\"";
 "LibraryAdded" = "Se ha restaurado la pestaña \"Tú\"";
 "LibraryRemoved" = "Se ha eliminado la pestaña \"Tú\"";
-
 
 "Yes" = "Sí";
 "No" = "No";
@@ -462,6 +538,7 @@
 "OpenAsRegularVideo" = "Abrir como vídeo normal";
 "CopyPostText" = "Copiar texto de la publicación";
 "SaveCurrentImage" = "Guardar imagen actual";
+"ShowCurrentImage" = "Mostrar imagen actual";
 "CopyCurrentImage" = "Copiar imagen actual";
 "SavePostAsImage" = "Guardar publicación como imagen";
 "CopyPostAsImage" = "Copiar publicación como imagen";
@@ -469,8 +546,10 @@
 "SaveCommentAsImage" = "Guardar comentario como imagen";
 "CopyCommentAsImage" = "Copiar comentario como imagen";
 "SaveProfilePicture" = "Guardar imagen de perfil";
+"ShowProfilePicture" = "Mostrar foto de perfil";
 "CopyProfilePicture" = "Copiar imagen de perfil";
 "DownloadThumbnail" = "Guardar miniatura";
+"ShowThumbnail" = "Mostrar miniatura";
 "CopyThumbnail" = "Copiar miniatura";
 "Cancel" = "Cancelar";
 "Cancelled" = "Cancelado";
@@ -506,6 +585,7 @@
 
 "Conflicts.Detected" = "Tweak incompatibles detectados";
 "Conflicts.DetectedDesc" = "A pesar de la aparente estabilidad de la aplicación, el desarrollador de YouTube Plus no recomienda combinar tweaks con funcionalidades similares en la misma aplicación y no puede garantizar un uso seguro.\n\nAl continuar utilizando la aplicación, asumes toda la responsabilidad y aceptas que cualquier queja sobre el rendimiento será ignorada.";
+"Conflicts.SkipThisVersion" = "No mostrar para esta versión";
 "Conflicts.AcceptRisks" = "Acepto todos los riesgos";
 "Conflicts.CloseYT" = "Cerrar YouTube";
 
