@@ -178,7 +178,7 @@ jobs:
         if: ${{ inputs.enable_yq }}
         run: |
           cd ${{ github.workspace }}
-          git clone --quiet --depth=1 https://github.com/PoomSmart/YTVideoOverlay.git
+          git clone --quiet --depth=1 https://github.com/marcinmajsc/YTVideoOverlay.git
 
       - name: Clone DontEatMyContent
         if: ${{ inputs.enable_demc }}
