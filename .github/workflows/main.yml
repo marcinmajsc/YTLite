@@ -172,7 +172,7 @@ jobs:
         if: ${{ inputs.enable_yq }}
         run: |
           cd ${{ github.workspace }}
-          git clone --quiet --depth=1 https://github.com/PoomSmart/YouQuality.git
+          git clone --quiet --depth=1 https://github.com/marcinmajsc/YouQuality.git
 
       - name: Clone YTVideoOverlay
         if: ${{ inputs.enable_yq }}
