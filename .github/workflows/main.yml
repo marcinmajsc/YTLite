@@ -164,12 +164,6 @@ jobs:
           cd ${{ github.workspace }}
           git clone --quiet --depth=1 https://github.com/PoomSmart/Return-YouTube-Dislikes.git
 
-      - name: Clone YouGroupSettings
-        if: ${{ inputs.enable_demc }}
-        run: |
-          cd ${{ github.workspace }}
-          git clone --quiet --depth=1 https://github.com/PoomSmart/YouGroupSettings.git
-
       - name: Clone YouQuality
         if: ${{ inputs.enable_yq }}
         run: |
@@ -212,15 +206,6 @@ jobs:
           cd ${{ github.workspace }}/Return-YouTube-Dislikes
           make clean package DEBUG=0 FINALPACKAGE=1
           mv packages/*.deb ${{ github.workspace }}/ryd.deb
-        env:
-          THEOS: ${{ github.workspace }}/theos
-
-      - name: Build YouGroupSettings
-        if: ${{ inputs.enable_demc }}
-        run: |
-          cd ${{ github.workspace }}/YouGroupSettings
-          make clean package DEBUG=0 FINALPACKAGE=1
-          mv packages/*.deb ${{ github.workspace }}/ygs.deb
         env:
           THEOS: ${{ github.workspace }}/theos
 
