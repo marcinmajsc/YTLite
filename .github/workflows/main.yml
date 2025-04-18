@@ -227,6 +227,11 @@ jobs:
           cd ${{ github.workspace }}
           git clone --quiet --depth=1 --recurse-submodules https://github.com/PoomSmart/YTABConfig.git
 
+      - name: Clone FLEXing
+        run: |
+          cd ${{ github.workspace }}
+          git clone --quiet --depth=1 --recurse-submodules https://github.com/PoomSmart/FLEXing.git
+
       - name: Build YouPiP
         if: ${{ inputs.enable_youpip }}
         run: |
@@ -298,11 +303,19 @@ jobs:
         env:
           THEOS: ${{ github.workspace }}/theos
 
+      - name: Build FLEXing
+        run: |
+          cd ${{ github.workspace }}/FLEXing
+          make clean package DEBUG=0 FINALPACKAGE=1
+          mv packages/*.deb ${{ github.workspace }}/flexing.deb
+        env:
+          THEOS: ${{ github.workspace }}/theos
+
       - name: Inject tweaks into IPA
         run: |
           tweaks="ytplus.deb OpenYoutubeSafariExtension.appex"
 
-          for deb in youpip.deb ytuhd.deb ryd.deb ygs.deb yq.deb ytvo.deb demc.deb ytabconfig.deb; do
+          for deb in youpip.deb ytuhd.deb ryd.deb ygs.deb yq.deb ytvo.deb demc.deb ytabconfig.deb flexing.deb; do
             if [ -f "$deb" ]; then
               tweaks="$tweaks $deb"
             fi
