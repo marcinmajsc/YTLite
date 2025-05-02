@@ -1,4 +1,4 @@
-name: Create YouTube Plus app
+name: YTAB
 
 on:
   workflow_dispatch:
