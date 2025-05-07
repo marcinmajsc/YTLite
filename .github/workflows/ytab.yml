@@ -161,7 +161,7 @@ jobs:
           else
             echo "YouTubeHeader does not exist. Cloning repository..."
             cd $THEOS/include
-            git clone --quiet --depth=1 https://github.com/aricloverEXTRA/YouTubeHeader.git
+            git clone --quiet --depth=1 https://github.com/PoomSmart/YouTubeHeader.git
           fi
         env:
           THEOS: ${{ github.workspace }}/theos
