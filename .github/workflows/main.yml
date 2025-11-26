@@ -293,7 +293,7 @@ jobs:
           make clean package DEBUG=0 FINALPACKAGE=1
           mv packages/*.deb ${{ github.workspace }}/ytvo.deb
         env:
-          THEOS: ${{ github.workspace }}/
+          THEOS: ${{ github.workspace }}/theos
           
       - name: Build DontEatMyContent
         if: ${{ inputs.enable_demc }}
