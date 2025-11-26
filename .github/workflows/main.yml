@@ -231,7 +231,6 @@ jobs:
           git clone --quiet --depth=1 --recurse-submodules https://github.com/therealFoxster/DontEatMyContent.git
 
       - name: Clone YouSlider
-        if: ${{ inputs.enable_demc }}
         run: |
           cd ${{ github.workspace }}
           git clone --quiet --depth=1 --recurse-submodules https://github.com/PoomSmart/YouSlider.git
