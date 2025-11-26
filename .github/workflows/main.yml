@@ -104,23 +104,23 @@ jobs:
       - name: Set PATH environment variable
         run: echo "$(brew --prefix make)/libexec/gnubin" >> $GITHUB_PATH
 
-      - name: Cache Theos
-        if: ${{ inputs.enable_youpip || inputs.enable_ytuhd || inputs.enable_yq || inputs.enable_ryd || inputs.enable_demc }}
-        id: theos
-        uses: actions/cache@v4
-        env:
-          cache-name: theos_cache_67db2ab
-        with:
-          path: theos/
-          key: ${{ env.cache-name }}
-          restore-keys: ${{ env.cache-name }}
+#      - name: Cache Theos
+#        if: ${{ inputs.enable_youpip || inputs.enable_ytuhd || inputs.enable_yq || inputs.enable_ryd || inputs.enable_demc }}
+#        id: theos
+#        uses: actions/cache@v4
+#        env:
+#          cache-name: theos_cache_67db2ab
+#        with:
+#          path: theos/
+#          key: ${{ env.cache-name }}
+#          restore-keys: ${{ env.cache-name }}
 
       - name: Setup Theos
         if: ${{ (inputs.enable_youpip || inputs.enable_ytuhd || inputs.enable_yq || inputs.enable_ryd || inputs.enable_demc) && steps.theos.outputs.cache-hit != 'true' }}
         uses: actions/checkout@v4.1.7
         with:
           repository: theos/theos
-          ref: 67db2ab8d950910161730de77c322658ea3e6b44
+#          ref: 67db2ab8d950910161730de77c322658ea3e6b44
           path: ${{ github.workspace }}/theos
           submodules: recursive
 
@@ -230,11 +230,6 @@ jobs:
           cd ${{ github.workspace }}
           git clone --quiet --depth=1 --recurse-submodules https://github.com/therealFoxster/DontEatMyContent.git
 
-      - name: Clone YouSlider
-        run: |
-          cd ${{ github.workspace }}
-          git clone --quiet --depth=1 --recurse-submodules https://github.com/PoomSmart/YouSlider.git
-
       - name: Clone YouMute
         run: |
           cd ${{ github.workspace }}
@@ -305,9 +300,8 @@ jobs:
 
       - name: Build YouSlider
         run: |
-          cd ${{ github.workspace }}/YouSlider
-          make clean package DEBUG=0 FINALPACKAGE=1
-          mv packages/*.deb ${{ github.workspace }}/youslider.deb
+          cd ${{ github.workspace }}
+          wget "https://github.com/PoomSmart/PoomSmart.github.io/raw/refs/heads/main/repo/debs/youtube/youslider/com.ps.youslider_1.3.0_iphoneos-arm.deb" -O "youslider.deb"
         env:
           THEOS: ${{ github.workspace }}/theos
 
