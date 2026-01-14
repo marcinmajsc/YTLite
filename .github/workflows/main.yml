@@ -199,6 +199,11 @@ jobs:
         run: |
           cd ${{ github.workspace }}
           git clone --quiet --depth=1 https://github.com/Tonwalter888/YTUHD.git
+
+      - name: Clone YTweaks
+        run: |
+          cd ${{ github.workspace }}
+          git clone --quiet --depth=1 https://github.com/fosterbarnes/YTweaks.git
           
       - name: Clone Return-YouTube-Dislikes
         if: ${{ inputs.enable_ryd }}
@@ -245,6 +250,14 @@ jobs:
           cd ${{ github.workspace }}/YTUHD
           make clean package DEBUG=0 FINALPACKAGE=1
           mv packages/*.deb ${{ github.workspace }}/ytuhd.deb
+        env:
+          THEOS: ${{ github.workspace }}/theos
+
+      - name: Build YTweaks
+        run: |
+          cd ${{ github.workspace }}/YTweaks
+          make clean package DEBUG=0 FINALPACKAGE=1
+          mv packages/*.deb ${{ github.workspace }}/ytweaks.deb
         env:
           THEOS: ${{ github.workspace }}/theos
 
