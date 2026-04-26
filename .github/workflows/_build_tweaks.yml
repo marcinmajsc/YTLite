@@ -94,22 +94,6 @@ jobs:
           git checkout
           mv *.sdk $THEOS/sdks
 
-      - name: Download YouTube Plus (by version)
-        if: ${{ inputs.tweak_version != '' }}
-        run: |
-          deb_url="https://github.com/dayanch96/YTLite/releases/download/v${{ inputs.tweak_version }}/com.dvntm.ytlite_${{ inputs.tweak_version }}_iphoneos-arm.deb"
-          wget "$deb_url" --no-verbose -O ytplus.deb
-
-      - name: Download YouTube Plus (by URL)
-        if: ${{ inputs.tweak_url != '' }}
-        run: |
-          wget "${{ inputs.tweak_url }}" --no-verbose -O ytplus.deb
-          file_type=$(file --mime-type -b ytplus.deb)
-          if [[ "$file_type" != "application/vnd.debian.binary-package" ]]; then
-            echo "::error::Validation failed: The file is not a valid DEB file. Detected type: $file_type."
-            exit 1
-          fi
-
       - name: Clone YouTubeHeader
         if: ${{ inputs.enable_youpip || inputs.enable_ytuhd || inputs.enable_yq || inputs.enable_ryd || inputs.enable_ytabc || inputs.enable_demc }}
         run: |
@@ -131,6 +115,9 @@ jobs:
           else
             cd $THEOS/include && git clone --quiet --depth=1 https://github.com/PoomSmart/PSHeader.git
           fi
+
+      - name: Clone IAmYouTube
+        run: git clone --quiet --depth=1 https://github.com/PoomSmart/IAmYouTube.git
 
       - name: Clone YouPiP
         if: ${{ inputs.enable_youpip }}
@@ -163,6 +150,11 @@ jobs:
       - name: Clone DontEatMyContent
         if: ${{ inputs.enable_demc }}
         run: git clone --quiet --depth=1 https://github.com/therealFoxster/DontEatMyContent.git
+
+      - name: Build IAmYouTube
+        run: |
+          cd IAmYouTube && make clean package DEBUG=0 FINALPACKAGE=1
+          mv packages/*.deb ../iamyoutube.deb
 
       - name: Build YouPiP
         if: ${{ inputs.enable_youpip }}
@@ -219,20 +211,6 @@ jobs:
           git sparse-checkout set --no-cone OpenYoutubeSafariExtension.appex
           git checkout
           mv *.appex ..
-
-      - name: Update localization
-        if: ${{ inputs.enable_localization }}
-        run: |
-          mkdir debdir
-          dpkg-deb -R ytplus.deb debdir
-          rm ytplus.deb
-          find "layout/Library/Application Support/YTLite.bundle" \
-            -mindepth 1 -maxdepth 1 -type d -name "*.lproj" -not -name "en.lproj" \
-            -exec cp -R "{}" "debdir/Library/Application Support/YTLite.bundle/" \;
-          cd debdir/
-          find . -type f -not -path "./DEBIAN/*" -exec md5sum {} + | sort -k 2 | sed 's/\.\/\(.*\)/\1/' > DEBIAN/md5sums
-          cd ../
-          dpkg-deb --root-owner-group -b debdir ytplus.deb
 
       - name: Upload built debs as artifacts
         uses: actions/upload-artifact@v7
