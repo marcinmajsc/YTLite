@@ -39,6 +39,13 @@ on:
         required: true
         default: false
 
+      enable_ytam:
+        description: "Integrate YTAnotherMiniplayer"
+        type: boolean
+        required: true
+        default: false
+
+
       enable_localization:
         description: "Update localization files from repo"
         type: boolean
@@ -89,6 +96,7 @@ jobs:
       enable_ryd: ${{ inputs.enable_ryd }}
       enable_ytabc: ${{ inputs.enable_ytabc }}
       enable_demc: ${{ inputs.enable_demc }}
+      enable_ytam: ${{ inputs.enable_ytam }}
       enable_localization: ${{ inputs.enable_localization }}
       tweak_url: ${{ inputs.tweak_url }}
 
@@ -109,7 +117,7 @@ jobs:
       - name: Hide sensitive inputs
         uses: levibostian/action-hide-sensitive-inputs@v1
         with:
-          exclude_inputs: bundle_id,display_name,enable_demc,enable_ryd,enable_ytabc,enable_youpip,enable_yq,enable_ytuhd,enable_localization,info_note
+          exclude_inputs: bundle_id,display_name,enable_demc,enable_ryd,enable_ytabc,enable_youpip,enable_yq,enable_ytuhd,enable_ytam,enable_localization,info_note
 
       - name: Download and validate IPA
         run: |
