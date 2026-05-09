@@ -151,6 +151,8 @@
 "NoEndScreenCardsDesc" = "Hides End screens (thumbnails) at the end of videos.";
 "NoAutonavEndScreenCards" = "Hide auto-play end screen";
 "NoAutonavEndScreenCardsDesc" = "Hides the screen that shows what you can play next after playback ended. Disabling this option also disables auto-play.";
+"NoMoreVideosButton" = "Hide more videos button";
+"NoMoreVideosButtonDesc" = "Hides the more videos button in fullscreen mode.";
 "NoFullscreenActions" = "Disable fullscreen actions";
 "NoFullscreenActionsDesc" = "Disables actions panel in fullscreen mode.";
 "NoHudMsgs" = "Disable snackbars";
