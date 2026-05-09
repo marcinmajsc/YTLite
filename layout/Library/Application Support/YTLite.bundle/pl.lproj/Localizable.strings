@@ -151,6 +151,8 @@
 "NoEndScreenCardsDesc" = "Ukrywa karty końcowe (miniatury) na końcu filmów.";
 "NoAutonavEndScreenCards" = "Ukryj ekran autoodtwarzania";
 "NoAutonavEndScreenCardsDesc" = "Ukrywa ekran, który pokazuje, co można odtworzyć dalej po zakończeniu odtwarzania. Wyłączenie tej opcji również wyłącza autoodtwarzanie.";
+"NoMoreVideosButton" = "Ukryj przycisk więcej filmów";
+"NoMoreVideosButtonDesc" = "Ukrywa przycisk więcej filmów w trybie pełnoekranowym.";
 "NoFullscreenActions" = "Wyłącz akcje w trybie pełnoekranowym";
 "NoFullscreenActionsDesc" = "Wyłącza panel akcji w trybie pełnoekranowym.";
 "NoHudMsgs" = "Wyłącz komunikaty ekranowe";
