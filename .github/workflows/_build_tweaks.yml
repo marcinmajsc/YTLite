@@ -182,7 +182,11 @@ jobs:
       - name: Build YTUHD
         if: ${{ inputs.enable_ytuhd }}
         run: |
-          cd YTUHD && make libvpx && make dav1d && make clean package SIDELOAD=1 DEBUG=0 FINALPACKAGE=1
+          cd YTUHD
+          git submodule update --remote
+          make libvpx
+          make dav1d
+          make package SIDELOAD=1
           mv packages/*.deb ../ytuhd.deb
 
       - name: Build Return-YouTube-Dislikes
