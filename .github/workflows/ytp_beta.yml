@@ -7,49 +7,49 @@ on:
         description: "Integrate YouPiP"
         type: boolean
         required: true
-        default: false
+        default: true
 
       enable_ytuhd:
         description: "Integrate YTUHD"
         type: boolean
         required: true
-        default: false
+        default: true
 
       enable_yq:
         description: "Integrate YouQuality"
         type: boolean
         required: true
-        default: false
+        default: true
 
       enable_ryd:
         description: "Integrate Return YouTube Dislikes"
         type: boolean
         required: true
-        default: false
+        default: true
 
       enable_ytabc:
         description: "Integrate YTABConfig"
         type: boolean
         required: true
-        default: false
+        default: true
 
       enable_demc:
         description: "Integrate DontEatMyContent"
         type: boolean
         required: true
-        default: false
+        default: true
 
       enable_ytam:
         description: "Integrate YTAnotherMiniplayer"
         type: boolean
         required: true
-        default: false
+        default: true
         
       enable_localization:
         description: "Update localization files from repo"
         type: boolean
         required: true
-        default: false
+        default: true
 
       ipa_url:
         description: "URL to the decrypted IPA file"
