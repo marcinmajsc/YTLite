@@ -63,7 +63,7 @@ jobs:
         if: ${{ inputs.enable_localization }}
 
       - name: Install Dependencies
-        run: brew install make ldid dpkg
+        run: brew install make ldid dpkg meson ninja
 
       - name: Set PATH environment variable
         run: |
@@ -143,7 +143,7 @@ jobs:
 
       - name: Clone YTUHD
         if: ${{ inputs.enable_ytuhd }}
-        run: git clone --quiet --depth=1 https://github.com/marcinmajsc/YTUHD.git
+        run: git clone --quiet --recurse-submodules https://github.com/PoomSmart/YTUHD.git
 
       - name: Clone Return-YouTube-Dislikes
         if: ${{ inputs.enable_ryd }}
@@ -182,7 +182,7 @@ jobs:
       - name: Build YTUHD
         if: ${{ inputs.enable_ytuhd }}
         run: |
-          cd YTUHD && make clean package DEBUG=0 FINALPACKAGE=1
+          cd YTUHD && make libvpx && make dav1d && make clean package SIDELOAD=1 DEBUG=0 FINALPACKAGE=1
           mv packages/*.deb ../ytuhd.deb
 
       - name: Build Return-YouTube-Dislikes
