@@ -1,12 +1,13 @@
-/* Patreon section */
+/* Tweak account section */
+"Account" = "Account";
 "SkipLogInAlert" = "隱藏登入提醒";
-"Log-inViaPatreon" = "透過 Patreon 登入";
+"LogIn" = "Log in";
 "ManageAccount" = "管理帳戶";
 "AccessDenied" = "存取被拒";
 "LogOut" = "登出";
 "LogOutTitle" = "登出";
 "LogOutMessage" = "您確定要繼續嗎？";
-"FeaturesNotActivated" = "您尚未登入。請使用具備有效訂閱的 Patreon 帳號登入，以使用 YouTube Plus 功能。";
+"FeaturesNotActivated" = "您尚未登入。請使用具備有效訂閱的帳號登入，以使用 YouTube Plus 功能。";
 
 /* Main section */
 "Main" = "主要";
@@ -153,6 +154,8 @@
 "NoAutonavEndScreenCardsDesc" = "隱藏播放結束後顯示您可以接著播放什麼的畫面。停用此選項也會停用自動播放";
 "NoFullscreenActions" = "停用全螢幕操作";
 "NoFullscreenActionsDesc" = "在全螢幕模式下停用操作面板";
+"NoMoreVideosButton" = "Hide more videos button";
+"NoMoreVideosButtonDesc" = "Hides the more videos button in fullscreen mode.";
 "NoHudMsgs" = "停用提示訊息";
 "NoHudMsgsDesc" = "防止 YouTube 顯示螢幕底部的 HUD 提示訊息";
 "PersistentProgressBar" = "固定進度列";

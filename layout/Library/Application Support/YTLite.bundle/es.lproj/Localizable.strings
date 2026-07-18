@@ -1,12 +1,13 @@
-/* Patreon section */
+/* Tweak account section */
+"Account" = "Account";
 "SkipLogInAlert" = "Suprimir recordatorio de inicio de sesión";
-"Log-inViaPatreon" = "Iniciar sesión mediante Patreon";
+"LogIn" = "Log in";
 "ManageAccount" = "Administrar cuenta";
 "AccessDenied" = "Acceso denegado";
 "LogOut" = "Cerrar sesión";
 "LogOutTitle" = "Cerrar sesión";
 "LogOutMessage" = "¿Seguro que quieres continuar?";
-"FeaturesNotActivated" = "No has iniciado sesión. Para acceder a las características de YouTube Plus, por favor inicia sesión con una subscripción activa de Patreon.";
+"FeaturesNotActivated" = "No has iniciado sesión. Para acceder a las características de YouTube Plus, por favor inicia sesión con una subscripción activa.";
 
 /* Main section */
 "Main" = "Principal";
@@ -153,6 +154,8 @@
 "NoAutonavEndScreenCardsDesc" = "Oculta la pantalla que muestra lo que se puede reproducir a continuación una vez finalizada la reproducción. Al desactivar esta opción también se desactiva la reproducción automática.";
 "NoFullscreenActions" = "Desactivar acciones en pantalla completa";
 "NoFullscreenActionsDesc" = "Desactiva el panel de acciones en el modo de pantalla completa.";
+"NoMoreVideosButton" = "Hide more videos button";
+"NoMoreVideosButtonDesc" = "Hides the more videos button in fullscreen mode.";
 "NoHudMsgs" = "Desactivar barras de notificación";
 "NoHudMsgsDesc" = "Previene que YouTube muestre avisos emergentes (HUD) en pantalla.";
 "PersistentProgressBar" = "Barra de progreso persistente";

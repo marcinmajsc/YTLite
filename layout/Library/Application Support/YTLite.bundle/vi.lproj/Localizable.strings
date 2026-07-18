@@ -1,12 +1,13 @@
-/* Patreon section */
+/* Tweak account section */
+"Account" = "Account";
 "SkipLogInAlert" = "Tạm tắt thông báo đăng nhập";
-"Log-inViaPatreon" = "Đăng nhập bằng Patreon";
+"LogIn" = "Log in";
 "ManageAccount" = "Quản lý tài khoản";
 "AccessDenied" = "Truy cập bị từ chối";
 "LogOut" = "Đăng xuất";
 "LogOutTitle" = "Đăng xuất";
 "LogOutMessage" = "Bạn có chắc chắn muốn tiếp tục không?";
-"FeaturesNotActivated" = "Bạn hiện chưa đăng nhập. Để sử dụng được các tính năng của YouTube Plus, vui lòng đăng nhập bằng tài khoản Patreon đã đăng ký.";
+"FeaturesNotActivated" = "Bạn hiện chưa đăng nhập. Để sử dụng được các tính năng của YouTube Plus, vui lòng đăng nhập bằng tài khoản có gói đăng ký đang hoạt động.";
 
 /* Main section */
 "Main" = "Cài đặt chính";
@@ -153,6 +154,8 @@
 "NoAutonavEndScreenCardsDesc" = "Ẩn màn hình hiển thị video sẽ phát sau khi video hiện tại kết thúc. Tùy chọn này cũng sẽ tắt tính năng tự động phát.";
 "NoFullscreenActions" = "Ẩn các nút cạnh dưới trong toàn màn hình";
 "NoFullscreenActionsDesc" = "Ẩn dải các nút thao tác nhanh ở cạnh dưới trong chế độ toàn màn hình.";
+"NoMoreVideosButton" = "Hide more videos button";
+"NoMoreVideosButtonDesc" = "Hides the more videos button in fullscreen mode.";
 "NoHudMsgs" = "Tắt thanh thông báo cạnh dưới";
 "NoHudMsgsDesc" = "Không hiển thị các thông báo tạm thời trên màn hình.";
 "PersistentProgressBar" = "Luôn hiện thanh tiến trình";

@@ -1,12 +1,13 @@
-/* Patreon section */
+/* Tweak account section */
+"Account" = "Account";
 "SkipLogInAlert" = "Giriş hatırlatmasını kapat";
-"Log-inViaPatreon" = "Patreon ile giriş yap";
+"LogIn" = "Log in";
 "ManageAccount" = "Hesabı yönet";
 "AccessDenied" = "Erişim reddedildi";
 "LogOut" = "Çıkış yap";
 "LogOutTitle" = "Çıkış yap";
 "LogOutMessage" = "Devam etmek istediğinden emin misin?";
-"FeaturesNotActivated" = "Henüz giriş yapmadın. YouTube Plus özelliklerine erişmek için aktif bir Patreon aboneliğiyle giriş yapman gerekiyor.";
+"FeaturesNotActivated" = "Henüz giriş yapmadın. YouTube Plus özelliklerine erişmek için aktif bir abonelikle giriş yapman gerekiyor.";
 
 /* Main section */
 "Main" = "Ana";
@@ -153,6 +154,8 @@
 "NoAutonavEndScreenCardsDesc" = "Oynatma bittikten sonra ne oynatılacağını gösteren ekranı gizler. Bu seçeneği devre dışı bırakmak otomatik oynatmayı da devre dışı bırakır.";
 "NoFullscreenActions" = "Tam ekran eylemlerini devre dışı bırak";
 "NoFullscreenActionsDesc" = "Tam ekran modunda eylemler panelini devre dışı bırakır.";
+"NoMoreVideosButton" = "Hide more videos button";
+"NoMoreVideosButtonDesc" = "Hides the more videos button in fullscreen mode.";
 "NoHudMsgs" = "Snackbar'ları devre dışı bırak";
 "NoHudMsgsDesc" = "YouTube'un ekran üstü HUD mesajları göstermesini engeller.";
 "PersistentProgressBar" = "Kalıcı ilerleme çubuğu";

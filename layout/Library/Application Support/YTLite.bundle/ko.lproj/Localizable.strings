@@ -1,12 +1,13 @@
-/* Patreon section */
+/* Tweak account section */
+"Account" = "Account";
 "SkipLogInAlert" = "Suppress login reminder";
-"Log-inViaPatreon" = "Log-in via Patreon";
+"LogIn" = "Log in";
 "ManageAccount" = "Manage account";
 "AccessDenied" = "Access denied";
 "LogOut" = "Log out";
 "LogOutTitle" = "Log out";
 "LogOutMessage" = "Are you sure you want to continue?";
-"FeaturesNotActivated" = "You are not logged in. To access YouTube Plus features, please log in with an active Patreon subscription.";
+"FeaturesNotActivated" = "You are not logged in. To access YouTube Plus features, please log in with an active subscription.";
 
 /* Main section */
 "Main" = "메인";
@@ -153,6 +154,8 @@
 "NoAutonavEndScreenCardsDesc" = "재생이 끝난 후 다음에 재생할 수 있는 항목을 보여주는 화면을 숨깁니다. 이 옵션을 비활성화하면 자동 재생도 비활성화됩니다.";
 "NoFullscreenActions" = "전체 화면 동작 비활성화";
 "NoFullscreenActionsDesc" = "전체 화면 모드에서 동작 패널 비활성화";
+"NoMoreVideosButton" = "Hide more videos button";
+"NoMoreVideosButtonDesc" = "Hides the more videos button in fullscreen mode.";
 "NoHudMsgs" = "Disable snackbars";
 "NoHudMsgsDesc" = "Prevents YouTube from showing on-screen HUD messages.";
 "PersistentProgressBar" = "지속적인 진행률 표시줄";

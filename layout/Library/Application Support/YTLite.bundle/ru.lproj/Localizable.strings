@@ -1,12 +1,13 @@
-/* Patreon section */
+/* Tweak account section */
+"Account" = "Account";
 "SkipLogInAlert" = "Скрыть напоминание о входе";
-"Log-inViaPatreon" = "Войти с помощью Patreon";
+"LogIn" = "Log in";
 "ManageAccount" = "Управление аккаунтом";
 "AccessDenied" = "Нет доступа";
 "LogOut" = "Выйти";
 "LogOutTitle" = "Выход";
 "LogOutMessage" = "Уверены, что хотите продолжить?";
-"FeaturesNotActivated" = "Вы не вошли в аккаунт. Для доступа к функциям YouTube Plus войдите с активной подпиской Patreon.";
+"FeaturesNotActivated" = "Вы не вошли в аккаунт. Для доступа к функциям YouTube Plus войдите с активной подпиской.";
 
 /* Main section */
 "Main" = "Основные";
@@ -153,6 +154,8 @@
 "NoAutonavEndScreenCardsDesc" = "Скрывает окно в котором, по окончанию воспроизведения, отображается видео, которое можно воспроизвести следующим. Включение данной опции также приведет к отключению автоперехода к следующему видео.";
 "NoFullscreenActions" = "Отключить панель действий";
 "NoFullscreenActionsDesc" = "Отключает панель действий, отображающуюся под прогресс-баром плеера.";
+"NoMoreVideosButton" = "Hide more videos button";
+"NoMoreVideosButtonDesc" = "Hides the more videos button in fullscreen mode.";
 "NoHudMsgs" = "Запретить тосты";
 "NoHudMsgsDesc" = "Скрывает HUD-сообщения, показываемые YouTube.";
 "PersistentProgressBar" = "Всегда отображать прогресс-бар";
