@@ -1,12 +1,13 @@
-/* Patreon section */
+/* Tweak account section */
+"Account" = "Konto";
 "SkipLogInAlert" = "Ukryj przypomnienie o logowaniu";
-"Log-inViaPatreon" = "Zaloguj przez Patreon";
+"Log-in" = "Zaloguj się";
 "ManageAccount" = "Zarządzaj kontem";
 "AccessDenied" = "Brak dostępu";
 "LogOut" = "Wyloguj";
 "LogOutTitle" = "Wylogowanie";
 "LogOutMessage" = "Czy na pewno chcesz kontynuować?";
-"FeaturesNotActivated" = "Nie jesteś zalogowany. Aby uzyskać dostęp do funkcji YouTube Plus zaloguj się z aktywną subskrypcją Patreon.";
+"FeaturesNotActivated" = "Nie jesteś zalogowany. Aby uzyskać dostęp do funkcji YouTube Plus zaloguj się z aktywną subskrypcją.";
 
 /* Main section */
 "Main" = "Główne";
@@ -151,10 +152,10 @@
 "NoEndScreenCardsDesc" = "Ukrywa karty końcowe (miniatury) na końcu filmów.";
 "NoAutonavEndScreenCards" = "Ukryj ekran autoodtwarzania";
 "NoAutonavEndScreenCardsDesc" = "Ukrywa ekran, który pokazuje, co można odtworzyć dalej po zakończeniu odtwarzania. Wyłączenie tej opcji również wyłącza autoodtwarzanie.";
-"NoMoreVideosButton" = "Ukryj przycisk więcej filmów";
-"NoMoreVideosButtonDesc" = "Ukrywa przycisk więcej filmów w trybie pełnoekranowym.";
 "NoFullscreenActions" = "Wyłącz akcje w trybie pełnoekranowym";
 "NoFullscreenActionsDesc" = "Wyłącza panel akcji w trybie pełnoekranowym.";
+"NoMoreVideosButton" = "Ukryj przycisk więcej filmów";
+"NoMoreVideosButtonDesc" = "Ukrywa przycisk więcej filmów w trybie pełnoekranowym.";
 "NoHudMsgs" = "Wyłącz komunikaty ekranowe";
 "NoHudMsgsDesc" = "Zapobiega wyświetlaniu przez YouTube komunikatów HUD na ekranie.";
 "PersistentProgressBar" = "Stały pasek postępu";
