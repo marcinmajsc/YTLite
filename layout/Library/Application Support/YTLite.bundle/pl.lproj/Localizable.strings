@@ -1,7 +1,7 @@
 /* Tweak account section */
 "Account" = "Konto";
 "SkipLogInAlert" = "Ukryj przypomnienie o logowaniu";
-"Log-in" = "Zaloguj się";
+"LogIn" = "Zaloguj się";
 "ManageAccount" = "Zarządzaj kontem";
 "AccessDenied" = "Brak dostępu";
 "LogOut" = "Wyloguj";
