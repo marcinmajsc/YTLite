@@ -101,7 +101,7 @@ jobs:
 
   package:
     name: Package IPA
-    runs-on: macos-latest
+    runs-on: xcode-27
     needs: build-tweaks
     permissions:
       contents: write
