@@ -56,10 +56,10 @@ on:
 jobs:
   build-tweaks:
     name: Build Tweaks
-    runs-on: macos-26
+    runs-on: xcode-27
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7.0.1
         if: ${{ inputs.enable_localization }}
 
       - name: Install Dependencies
@@ -83,10 +83,10 @@ jobs:
 
       - name: Setup Theos
         if: ${{ (inputs.enable_youpip || inputs.enable_ytuhd || inputs.enable_yq || inputs.enable_ryd || inputs.enable_ytabc || inputs.enable_demc || inputs.enable_ytam) && steps.theos.outputs.cache-hit != 'true' }}
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7.0.1
         with:
           repository: theos/theos
-          ref: 3913415ce82614e66bdbcf0e2538288dd94f5011
+          ref: dd5c14bb9d91311e221d51b5bfb8c9e5948156db
           path: theos
           submodules: recursive
 
@@ -95,7 +95,7 @@ jobs:
         run: |
           git clone --quiet -n --depth=1 --filter=tree:0 https://github.com/xybp888/iOS-SDKs/
           cd iOS-SDKs
-          git sparse-checkout set --no-cone iPhoneOS26.5.sdk
+          git sparse-checkout set --no-cone iPhoneOS27.0.sdk
           git checkout
           mv *.sdk $THEOS/sdks
 
