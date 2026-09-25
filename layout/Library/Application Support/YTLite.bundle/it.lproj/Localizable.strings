@@ -9,6 +9,18 @@
 "LogOutMessage" = "Are you sure you want to continue?";
 "FeaturesNotActivated" = "You are not logged in. To access YouTube Plus features, please log in with an active subscription.";
 
+"Access.AccountRequired" = "Account required";
+"Access.Active" = "Active";
+"Access.AppNotFound" = "App is not registered";
+"Access.DeviceLimit" = "Device limit reached";
+"Access.DeviceNotRegistered" = "Device is not linked";
+"Access.InsufficientPlan" = "Subscription level is too low";
+"Access.LogIn" = "Log in";
+"Access.NotFound" = "Account not found";
+"Access.RequestError" = "Request error";
+"Access.SignInAgain" = "Sign in again";
+"Access.Status" = "Subscription status";
+
 /* Main section */
 "Main" = "Principale";
 "Search" = "Search";
@@ -59,6 +71,95 @@
 "Translated" = "tradotti";
 "TranslatedAutoGen" = "tradotti automaticamente";
 
+"AfterDownload" = "Save in...";
+"AlreadyDownloading" = "This video is already downloading";
+"AudioOnly" = "Audio only";
+"AudioTrack" = "Audio track";
+"Captions" = "Captions";
+"ChangeCover" = "Change cover";
+"CurrentImage" = "Image";
+"Delete" = "Delete";
+"Download" = "Download";
+"Download.Failed" = "Failed to download. Error code: %@";
+"DownloadPlaylist" = "Download playlist";
+"Downloads.Added" = "Added to downloading list";
+"Downloads.All" = "All";
+"Downloads.AlreadyDownloaded" = "Everything is already downloaded";
+"Downloads.Audio" = "Audio";
+"Downloads.DeletePlaylist" = "Delete playlist?";
+"Downloads.DeletePlaylist.Message" = "All of its downloads will be removed.";
+"Downloads.Deleted" = "Deleted";
+"Downloads.DeselectAll" = "Deselect all";
+"Downloads.Downloading" = "Downloading";
+"Downloads.Duplicate.Message" = "It will be saved as a separate copy. Continue?";
+"Downloads.Duplicate.Playlist" = "This playlist is already in downloads";
+"Downloads.Duplicate.Playlist.Message" = "Files already downloaded will be skipped — only the missing ones are fetched. Continue?";
+"Downloads.Duplicate.Video" = "This video is already in downloads";
+"Downloads.Empty" = "Nothing downloaded yet";
+"Downloads.Interrupted" = "Interrupted";
+"Downloads.Largest" = "Largest";
+"Downloads.Menu.MoveToPrivate" = "Move to Private section";
+"Downloads.Menu.MoveToPublic" = "Move back to Public sections";
+"Downloads.Menu.OpenInYouTube" = "Open video in YouTube";
+"Downloads.Menu.OpenPlaylist" = "Open playlist in YouTube";
+"Downloads.Menu.Reencode" = "Re-encode";
+"Downloads.Menu.Rename" = "Rename";
+"Downloads.Menu.SaveToPhotos" = "Save to Photos";
+"Downloads.Menu.Share" = "Share";
+"Downloads.Menu.VisitChannel" = "Visit creator's profile";
+"Downloads.MovedToPrivate" = "Moved to Private";
+"Downloads.MovedToPublic" = "Moved back to Public";
+"Downloads.Newest" = "Newest";
+"Downloads.Oldest" = "Oldest";
+"Downloads.ParallelConversions" = "Simultaneous processing";
+"Downloads.ParallelConversionsDesc" = "How many files are merged, cut or re-encoded at once. More than one is usually slower than one after another.";
+"Downloads.ParallelDownloads" = "Simultaneous downloads";
+"Downloads.ParallelDownloadsDesc" = "How many files are downloaded at once. The rest wait their turn.";
+"Downloads.Paused" = "Paused";
+"Downloads.Playlists" = "Playlists";
+"Downloads.Private" = "Private";
+"Downloads.PrivateDownload" = "Private download";
+"Downloads.Queue" = "Queue";
+"Downloads.Queued" = "Queued…";
+"Downloads.SaveWithoutEncoding" = "Save without re-encoding";
+"Downloads.Select" = "Select";
+"Downloads.SelectAll" = "Select all";
+"Downloads.Selected" = "Actions for selected";
+"Downloads.Shorts" = "Shorts";
+"Downloads.Smallest" = "Smallest";
+"Downloads.StopConverting" = "Stop converting?";
+"Downloads.StopConverting.Message" = "The downloaded video and audio can be saved as they are and re-encoded later.";
+"Downloads.StopOperation" = "Stop";
+"Downloads.StopOperation.Message" = "The file will stay unchanged.";
+"Downloads.Swipe.Channel" = "Channel";
+"Downloads.Swipe.Playlist" = "Playlist";
+"Downloads.Swipe.Video" = "Video";
+"Downloads.Unlock" = "Unlock";
+"Downloads.UnlockReason" = "Unlock private downloads";
+"Downloads.Videos" = "Videos";
+"EditMetadata" = "Edit metadata";
+"FetchingData" = "Fetching video data...";
+"Format" = "Format";
+"MetadataAlbum" = "Album";
+"MetadataArtist" = "Artist";
+"MetadataCover" = "Cover";
+"MetadataRemoveCover" = "Remove cover";
+"MetadataTitle" = "Title";
+"MetadataYear" = "Year";
+"NoCaptions" = "Don't add captions";
+"PlaylistDownloadFooter" = "Media can be converted, and both media and their metadata edited, later from the Downloads tab.";
+"PlaylistQualityAV1" = "Best av1/vp9 • Up to 4K";
+"PlaylistQualityAVC" = "Best avc1 • Up to 1080p";
+"PlaylistQualityAudio" = "Audio only • Original";
+"PlaylistQualityMP3" = "Audio only • MP3";
+"PreferredQuality" = "Preferred quality";
+"RequiresReencoding" = "Requires re-encoding";
+"SaveCaptions" = "Save captions";
+"SaveToDownloads" = "Downloads";
+"SaveToPrivate" = "Private section";
+"SelectedMedia" = "Selected media";
+"StableVolume" = "Stable volume";
+
 /* Nav bar options */
 "Navbar" = "Barra di navigazione";
 "RemoveCast" = "Nascondi il tasto Cast";
@@ -76,6 +177,10 @@
 "LogoImage" = "Logo image";
 "LogoImageDesc" = "Replaces the YouTube logo with the one selected in the navigation bar.";
 "NoLogo" = "Remove logo";
+
+"FEytp_downloads" = "Downloads";
+"RemoveMessages" = "Hide Messages button";
+"RemoveMessagesDesc" = "Hides Messages button from the Navigation bar.";
 
 /* Feed options */
 "Feed" = "Feed";
@@ -99,6 +204,15 @@
 "RemovePlayablesDesc" = "Rimuove la Sala Giochi (mini-giochi) dal feed.";
 "FixAlbums" = "Sistema le copertine";
 "FixAlbumsDesc" = "Sistema la visualizzazione delle copertine per gli utenti in Russia.";
+
+"KeepPlaylistsInSubscriptions" = "Keep playlists in Subscriptions";
+"KeepPlaylistsInSubscriptionsDesc" = "Prevents removing playlists from Subscriptions tab.";
+"RemoveMembersOnly" = "Remove members-only videos";
+"RemoveMembersOnlyDesc" = "Removes videos available to channel members only from the feed.";
+"RemovePlaylists" = "Remove playlists";
+"RemovePlaylistsDesc" = "Removes playlist cards from the feed.";
+"RemoveUpcomingLives" = "Remove upcoming streams";
+"RemoveUpcomingLivesDesc" = "Removes scheduled stream announcements from the feed.";
 
 /* Player options */
 "Player" = "Player";
@@ -138,8 +252,6 @@
 "HidePrevNextDesc" = "Nasconde i pulsanti video Precedente e Successivo dall'overlay.";
 "ReplacePrevNext" = "Pulsanti Avanti veloce e Riavvolgi";
 "ReplacePrevNextDesc" = "Sostituisce i pulsanti video Precedente e Successivo con i pulsanti Avanti veloce e Riavvolgi nell'overlay.";
-"RememberLoopMode" = "Ricorda modalità di loop";
-"RememberLoopModeDesc" = "Ricorda l'ultima modalità di loop selezionata nel menu del lettore.";
 "FullscreenToTheLeft" = "Fullscreen a sinistra";
 "FullscreenToTheLeftDesc" = "La modalità fullscreen ruoterà il dispositivo verso sinistra invece che a destra.";
 "PortraitFullscreen" = "Modalità schermo intero verticale";
@@ -279,6 +391,55 @@
 "NoDoubleTap2Seek" = "Disabilita doppio tocco per cercare";
 "NoDoubleTap2SeekDesc" = "Disabilita il gesto di doppio tocco per cercare.";
 
+"FullscreenButton" = "Fullscreen to the right";
+"FullscreenButtonDesc" = "Adds a button that opens fullscreen rotated the other way than the YouTube one, even with rotation lock on.";
+"LoopButton" = "Loop button";
+"LoopButtonDesc" = "Displays a button that loops the current video.";
+"OverlayButtonsOrder" = "Overlay buttons order";
+"OverlayButtonsOrderDesc" = "Sets the order of YTPlus buttons in the player overlay.";
+"PiPButton" = "Picture in Picture button";
+"PiPButtonDesc" = "Displays a button that turns Picture in Picture on and off for backgrounding.";
+"Player.AutoPlayNext" = "Auto-play next";
+"Player.ClosesYouTube" = "Close the YouTube player?";
+"Player.ClosesYouTube.Message" = "Playing in two players at once can lead to unexpected issues. The YouTube one will be closed.";
+"Player.DefaultLayout" = "Default layout";
+"Player.Direction.Default" = "Default";
+"Player.Direction.Inverted" = "Inverted";
+"Player.FullscreenDirection" = "Fullscreen direction";
+"Player.Layout.Adaptive" = "Adaptive fullscreen";
+"Player.Layout.Landscape" = "Landscape fullscreen";
+"Player.Layout.PlayerAndList" = "Player and list";
+"Player.Layout.PortraitFullscreen" = "Portrait fullscreen";
+"Player.Live" = "Live";
+"Player.MoreOptions" = "More options";
+"Player.Position" = "%ld / %ld • %@";
+"Player.RememberProgress" = "Remember progress";
+"Player.RememberProgressPlaylists" = "Remember progress in playlists";
+"Player.Skip.Disabled" = "Disable";
+"Player.Skip.Seek" = "Fast forward and rewind";
+"Player.Skip.Tracks" = "Previous and Next";
+"Player.SkipButtons" = "Skip buttons";
+"Player.TwoFingerToggle" = "Two-finger play/pause";
+"Player.Unplayable" = "This file can't be played";
+"Player.Unplayable.Message" = "This format is not supported by your device. Re-encode to H.264?";
+"PlayerNoAsk" = "Remove \"Ask\" button";
+"PlayerNoAskDesc" = "Removes \"Ask\" button under player.";
+"Preset" = "Encoding preset";
+"PresetMedium" = "Medium";
+"PresetMediumDesc" = "Slow • Smaller size";
+"PresetSkip" = "Skip conversion";
+"PresetSkipDesc" = "Fastest • Can't save to Photos";
+"PresetUltraFast" = "Ultra fast";
+"PresetUltraFastDesc" = "Fast • Bigger size";
+"PresetVeryFast" = "Very fast";
+"PresetVeryFastDesc" = "Balanced";
+"Quality" = "Quality";
+"ReplaceDownloadMenu" = "Replace \"Download\" in menu";
+"ReplaceDownloadMenuDesc" = "Opens the YTPlus download form instead of the native one.";
+"ResetOrder" = "Reset order";
+"SuppressUnmute" = "Keep preview muted on volume keys";
+"SuppressUnmuteDesc" = "Stops the volume buttons from unmuting inline previews.";
+
 /* Shorts options */
 "Shorts" = "Shorts";
 "PlaybackMode" = "Comportamento alla fine della riproduzione";
@@ -315,8 +476,6 @@
 "HideShortsLogoDesc" = "Nasconde il logo degli Shorts nell'angolo in alto a sinistra.";
 "HideShortsSearch" = "Nascondi il tasto Cerca";
 "HideShortsSearchDesc" = "Nasconde il tasto Cerca dall'overlay degli Shorts.";
-"HideShortsCamera" = "Nascondi il tasto Camera";
-"HideShortsCameraDesc" = "Nasconde il tasto Camera dall'overlay degli Shorts.";
 "HideShortsMore" = "Nascondi il tasto More (⋮)";
 "HideShortsMoreDesc" = "Nasconde il tasto More (⋮) dall'overlay degli Shorts. È anche accessibile premendo a lungo lo schermo.";
 
@@ -331,8 +490,6 @@
 
 "HideShortsLike" = "No pulsante Like";
 "HideShortsLikeDesc" = "Rimuove il pulsante Like dall'action bar.";
-"HideShortsDislike" = "No pulsante Dislike";
-"HideShortsDislikeDesc" = "Rimuove il pulsante Dislike dall'action bar.";
 "HideShortsComments" = "No pulsante Commenti";
 "HideShortsCommentsDesc" = "Rimuove il pulsante Commenti dall'action bar.";
 "HideShortsShare" = "No pulsante Condividi";
@@ -355,6 +512,9 @@
 "HideShortsAudioDesc" = "Rimuove la riga che indica l'audio negli Shorts.";
 "HideShortsCommentBar" = "No comment bar";
 "HideShortsCommentBarDesc" = "Removes the comment bar in Shorts played from a user's profile.";
+
+"HideShortsMute" = "Hide Mute button";
+"HideShortsMuteDesc" = "Hides the sound toggle from the Shorts top bar.";
 
 /* Tab bar options */
 "Tabbar" = "Tab bar";
@@ -385,6 +545,12 @@
 "Warning" = "Attenzione";
 "AtLeastOneTab" = "At least one tab must remain active";
 "TabsCountRestricted" = "Puoi avere fino a sei tab attive";
+
+"AddPlaylistAsTab" = "Add as a tab";
+"EditTab" = "Edit tab";
+"RemoveTab" = "Remove tab";
+"TabIcon" = "Tab icon";
+"TabName" = "Tab name";
 
 /* Interface options */
 "Interface" = "Interfaccia";
@@ -454,6 +620,28 @@
 "RemoveRemixMenuDesc" = "Removes \"Remix\" option from menu.";
 "RemoveYTMMenu" = "Remove \"YouTube Music\"";
 "RemoveYTMMenuDesc" = "Removes \"Listen with YouTube Music\" option from menu.";
+
+"Add" = "Add";
+"AddLanguage" = "Add language";
+"Auto" = "Auto";
+"AutoDubbed" = "Auto-dubbed";
+"Close" = "Close";
+"CommentAsImage" = "Comment as image";
+"DeselectAll" = "Deselect all";
+"HideCarouselLens" = "Hide Lens";
+"HideCarouselLensDesc" = "Removes Lens button that appears in paused state.";
+"OpenVidsInYTPlus" = "Open videos in YTPlus player";
+"OpenVidsInYTPlusDesc" = "Opens videos from the feed in YTPlus player.";
+"PostAsImage" = "Post as image";
+"RemovePlayLast" = "Remove \"Play last in queue\"";
+"RemovePlayLastDesc" = "Removes \"Play last in queue\" option from menu.";
+"RemovePlayOnDifferent" = "Remove \"Play on different device\"";
+"RemovePlayOnDifferentDesc" = "Removes \"Play on different device\" option from menu.";
+"SelectAll" = "Select all";
+"Settings" = "Settings";
+"Translate.Failed" = "The translator is unavailable right now. Please try again later.";
+"Translate.TooManyRequests" = "Google is rate limiting the translator. Please try again in a few minutes.";
+"Undo" = "Undo";
 
 /* SponsorBlock settings */
 "EnableSponsorBlock" = "Abilita";
@@ -533,6 +721,40 @@
 "SkipToSegment" = "Da evidenziare";
 "Unskip" = "Unskip";
 
+"AvailableSegments" = "Available segments";
+"NoSegments" = "None";
+"RemoveSegments" = "Remove segments";
+"RemovingSegments" = "Removing segments…";
+"Sb.AddSegment" = "Add segment";
+"Sb.Category" = "Category";
+"Sb.ChangeCategory" = "Change category";
+"Sb.ConfirmTitle" = "Submit these segments?";
+"Sb.Downvote" = "Downvote";
+"Sb.ExistingSegments" = "Existing segments";
+"Sb.HighlightNoEnd" = "Not needed for a highlight";
+"Sb.LeaveLandscape" = "Leave landscape mode to submit segments";
+"Sb.MarkHere" = "Tap to mark current time";
+"Sb.NewSegment" = "New segment";
+"Sb.NotChosen" = "Not chosen";
+"Sb.RemoveSegment" = "Remove segment";
+"Sb.SegmentEnd" = "Segment end";
+"Sb.SegmentStart" = "Segment start";
+"Sb.Submit" = "Submit";
+"Sb.SubmitDuplicate" = "This segment has already been submitted";
+"Sb.SubmitInvalid" = "Fill in the category and both boundaries first";
+"Sb.SubmitRejected" = "The auto moderator rejected this submission";
+"Sb.SubmitTooOften" = "Too many submissions. Please try again later";
+"Sb.Submitted" = "Segments submitted";
+"Sb.Submitting" = "Submitting…";
+"Sb.UndoVote" = "Undo vote";
+"Sb.Upvote" = "Upvote";
+"Sb.VoteSent" = "Vote sent";
+"SbWhitelistChannel" = "Whitelist this channel";
+"SegmentSkipFeedback" = "Haptic feedback";
+"SegmentSkipFeedbackDesc" = "Plays a haptic feedback when skipping a segment.";
+"SkipToHighlight" = "Skip to highlight";
+"SubmitSegments" = "Submit segments";
+
 /* Discord RPC */
 "DiscordRPC" = "Discord RPC Integration";
 "EnableDiscordRPC" = "Enable Discord RPC";
@@ -565,6 +787,10 @@
 "SleepTimer.SelectTime" = "Select time";
 "SleepTimer.Start" = "Start";
 
+"SleepTimer.AddTime" = "Add time";
+"SleepTimer.ChapterPassed" = "Already played";
+"SleepTimer.SelectChapter" = "Select chapter";
+
 /* Developer section */
 "Developer" = "Sviluppatore";
 "FollowMe" = "Seguimi su X";
@@ -575,6 +801,14 @@
 "VisitGithubDesc" = "Metti una stella alla repo, richiedi una feature o segnala un problema";
 "VisitTelegram" = "Il mio canale Telegram";
 "VisitTelegramDesc" = "Rimani informato riguardo agli ultimi aggiornamenti dell'app";
+
+"NotifyUpdates" = "Notify Updates";
+"NotifyUpdatesDesc" = "Shows an alert if a new version of the tweak is available";
+"Update.Dismiss" = "Dismiss";
+"Update.Message" = "A new version is available";
+"Update.Repo" = "Web repo";
+"Update.Skip" = "Skip this version";
+"UpdatePreferences" = "Updates";
 
 /* Credits section */
 "Credits" = "Crediti";
@@ -735,17 +969,3 @@
 "DonationReminder" = "Il tuo supporto aiuta a rendere YouTube Plus ancora migliore.\n\nPuoi contribuire o scegliere di disattivare queste notifiche nelle impostazioni di YouTube Plus. Grazie💜";
 
 /* Old localizations (commented out for reference)
-"ExtraSpeedOptions" = "Opzioni di velocità extra";
-"ExtraSpeedOptionsDesc" = "Aggiunge ulteriori opzioni di velocità di riproduzione video al menu del lettore.";
-"CastingErrorTitle" = "Wait a minute...";
-"CastingErrorMessage" = "You're most likely seeing this because your certificate doesn't have Multicast permission.";
-"CastingAction" = "Settings";
-"OpenSettings" = "Open settings";
-"WhatIsMulticast?" = "What is Multicast?";
-"NoYTLogo" = "Rimuovi il logo YouTube";
-"NoYTLogoDesc" = "Rimuove il logo YouTube nella barra di navigazione.";
-"PremiumYTLogo" = "Imposta il logo YouTube Premium";
-"PremiumYTLogoDesc" = "Imposta il logo YouTube Premium nella barra di navigazione.";
-"SpeedLocation" = "Zona di attivazione della velocizzazione";
-"TabIsHidden" = "Le tab nascoste non possono essere scelte come Pagina di avvio";
-"TabIsStartupTab" = "La tab selezionata come pagina di avvio non può essere nascosta";

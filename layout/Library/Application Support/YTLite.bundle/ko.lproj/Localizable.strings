@@ -9,6 +9,18 @@
 "LogOutMessage" = "Are you sure you want to continue?";
 "FeaturesNotActivated" = "You are not logged in. To access YouTube Plus features, please log in with an active subscription.";
 
+"Access.AccountRequired" = "Account required";
+"Access.Active" = "Active";
+"Access.AppNotFound" = "App is not registered";
+"Access.DeviceLimit" = "Device limit reached";
+"Access.DeviceNotRegistered" = "Device is not linked";
+"Access.InsufficientPlan" = "Subscription level is too low";
+"Access.LogIn" = "Log in";
+"Access.NotFound" = "Account not found";
+"Access.RequestError" = "Request error";
+"Access.SignInAgain" = "Sign in again";
+"Access.Status" = "Subscription status";
+
 /* Main section */
 "Main" = "메인";
 "Search" = "Search";
@@ -59,6 +71,95 @@
 "Translated" = "번역됨";
 "TranslatedAutoGen" = "자동 번역됨";
 
+"AfterDownload" = "Save in...";
+"AlreadyDownloading" = "This video is already downloading";
+"AudioOnly" = "Audio only";
+"AudioTrack" = "Audio track";
+"Captions" = "Captions";
+"ChangeCover" = "Change cover";
+"CurrentImage" = "Image";
+"Delete" = "Delete";
+"Download" = "Download";
+"Download.Failed" = "Failed to download. Error code: %@";
+"DownloadPlaylist" = "Download playlist";
+"Downloads.Added" = "Added to downloading list";
+"Downloads.All" = "All";
+"Downloads.AlreadyDownloaded" = "Everything is already downloaded";
+"Downloads.Audio" = "Audio";
+"Downloads.DeletePlaylist" = "Delete playlist?";
+"Downloads.DeletePlaylist.Message" = "All of its downloads will be removed.";
+"Downloads.Deleted" = "Deleted";
+"Downloads.DeselectAll" = "Deselect all";
+"Downloads.Downloading" = "Downloading";
+"Downloads.Duplicate.Message" = "It will be saved as a separate copy. Continue?";
+"Downloads.Duplicate.Playlist" = "This playlist is already in downloads";
+"Downloads.Duplicate.Playlist.Message" = "Files already downloaded will be skipped — only the missing ones are fetched. Continue?";
+"Downloads.Duplicate.Video" = "This video is already in downloads";
+"Downloads.Empty" = "Nothing downloaded yet";
+"Downloads.Interrupted" = "Interrupted";
+"Downloads.Largest" = "Largest";
+"Downloads.Menu.MoveToPrivate" = "Move to Private section";
+"Downloads.Menu.MoveToPublic" = "Move back to Public sections";
+"Downloads.Menu.OpenInYouTube" = "Open video in YouTube";
+"Downloads.Menu.OpenPlaylist" = "Open playlist in YouTube";
+"Downloads.Menu.Reencode" = "Re-encode";
+"Downloads.Menu.Rename" = "Rename";
+"Downloads.Menu.SaveToPhotos" = "Save to Photos";
+"Downloads.Menu.Share" = "Share";
+"Downloads.Menu.VisitChannel" = "Visit creator's profile";
+"Downloads.MovedToPrivate" = "Moved to Private";
+"Downloads.MovedToPublic" = "Moved back to Public";
+"Downloads.Newest" = "Newest";
+"Downloads.Oldest" = "Oldest";
+"Downloads.ParallelConversions" = "Simultaneous processing";
+"Downloads.ParallelConversionsDesc" = "How many files are merged, cut or re-encoded at once. More than one is usually slower than one after another.";
+"Downloads.ParallelDownloads" = "Simultaneous downloads";
+"Downloads.ParallelDownloadsDesc" = "How many files are downloaded at once. The rest wait their turn.";
+"Downloads.Paused" = "Paused";
+"Downloads.Playlists" = "Playlists";
+"Downloads.Private" = "Private";
+"Downloads.PrivateDownload" = "Private download";
+"Downloads.Queue" = "Queue";
+"Downloads.Queued" = "Queued…";
+"Downloads.SaveWithoutEncoding" = "Save without re-encoding";
+"Downloads.Select" = "Select";
+"Downloads.SelectAll" = "Select all";
+"Downloads.Selected" = "Actions for selected";
+"Downloads.Shorts" = "Shorts";
+"Downloads.Smallest" = "Smallest";
+"Downloads.StopConverting" = "Stop converting?";
+"Downloads.StopConverting.Message" = "The downloaded video and audio can be saved as they are and re-encoded later.";
+"Downloads.StopOperation" = "Stop";
+"Downloads.StopOperation.Message" = "The file will stay unchanged.";
+"Downloads.Swipe.Channel" = "Channel";
+"Downloads.Swipe.Playlist" = "Playlist";
+"Downloads.Swipe.Video" = "Video";
+"Downloads.Unlock" = "Unlock";
+"Downloads.UnlockReason" = "Unlock private downloads";
+"Downloads.Videos" = "Videos";
+"EditMetadata" = "Edit metadata";
+"FetchingData" = "Fetching video data...";
+"Format" = "Format";
+"MetadataAlbum" = "Album";
+"MetadataArtist" = "Artist";
+"MetadataCover" = "Cover";
+"MetadataRemoveCover" = "Remove cover";
+"MetadataTitle" = "Title";
+"MetadataYear" = "Year";
+"NoCaptions" = "Don't add captions";
+"PlaylistDownloadFooter" = "Media can be converted, and both media and their metadata edited, later from the Downloads tab.";
+"PlaylistQualityAV1" = "Best av1/vp9 • Up to 4K";
+"PlaylistQualityAVC" = "Best avc1 • Up to 1080p";
+"PlaylistQualityAudio" = "Audio only • Original";
+"PlaylistQualityMP3" = "Audio only • MP3";
+"PreferredQuality" = "Preferred quality";
+"RequiresReencoding" = "Requires re-encoding";
+"SaveCaptions" = "Save captions";
+"SaveToDownloads" = "Downloads";
+"SaveToPrivate" = "Private section";
+"SelectedMedia" = "Selected media";
+"StableVolume" = "Stable volume";
+
 /* Nav bar options */
 "Navbar" = "탐색 표시줄";
 "RemoveCast" = "캐스트 버튼 숨기기";
@@ -76,6 +177,10 @@
 "LogoImage" = "Logo image";
 "LogoImageDesc" = "Replaces the YouTube logo with the one selected in the navigation bar.";
 "NoLogo" = "Remove logo";
+
+"FEytp_downloads" = "Downloads";
+"RemoveMessages" = "Hide Messages button";
+"RemoveMessagesDesc" = "Hides Messages button from the Navigation bar.";
 
 /* Feed options */
 "Feed" = "피드";
@@ -99,6 +204,15 @@
 "RemovePlayablesDesc" = "피드에서 재생 가능 항목(미니 게임)을 제거합니다.";
 "FixAlbums" = "표지 수정";
 "FixAlbumsDesc" = "러시아 사용자의 표지 표시를 수정합니다.";
+
+"KeepPlaylistsInSubscriptions" = "Keep playlists in Subscriptions";
+"KeepPlaylistsInSubscriptionsDesc" = "Prevents removing playlists from Subscriptions tab.";
+"RemoveMembersOnly" = "Remove members-only videos";
+"RemoveMembersOnlyDesc" = "Removes videos available to channel members only from the feed.";
+"RemovePlaylists" = "Remove playlists";
+"RemovePlaylistsDesc" = "Removes playlist cards from the feed.";
+"RemoveUpcomingLives" = "Remove upcoming streams";
+"RemoveUpcomingLivesDesc" = "Removes scheduled stream announcements from the feed.";
 
 /* Player options */
 "Player" = "플레이어";
@@ -138,8 +252,6 @@
 "HidePrevNextDesc" = "오버레이에서 이전 및 다음 비디오 버튼을 숨깁니다.";
 "ReplacePrevNext" = "빨리 감기 및 되감기 버튼";
 "ReplacePrevNextDesc" = "오버레이에서 이전 및 다음 비디오 버튼을 빨리 감기 및 되감기 버튼으로 대체합니다.";
-"RememberLoopMode" = "반복 모드 기억";
-"RememberLoopModeDesc" = "플레이어 메뉴에서 마지막으로 선택한 반복 모드를 기억합니다.";
 "FullscreenToTheLeft" = "왼쪽 회전 시 전체 화면";
 "FullscreenToTheLeftDesc" = "전체 화면 모드는 기기를 일반적인 오른쪽 방향이 아닌 왼쪽 방향으로 회전시킵니다.";
 "PortraitFullscreen" = "세로 전체 화면 모드";
@@ -279,6 +391,55 @@
 "NoDoubleTap2Seek" = "두 번 탭으로 탐색하는 제스처를 비활성화합니다.";
 "NoDoubleTap2SeekDesc" = "두 번 탭으로 탐색하는 제스처를 비활성화합니다.";
 
+"FullscreenButton" = "Fullscreen to the right";
+"FullscreenButtonDesc" = "Adds a button that opens fullscreen rotated the other way than the YouTube one, even with rotation lock on.";
+"LoopButton" = "Loop button";
+"LoopButtonDesc" = "Displays a button that loops the current video.";
+"OverlayButtonsOrder" = "Overlay buttons order";
+"OverlayButtonsOrderDesc" = "Sets the order of YTPlus buttons in the player overlay.";
+"PiPButton" = "Picture in Picture button";
+"PiPButtonDesc" = "Displays a button that turns Picture in Picture on and off for backgrounding.";
+"Player.AutoPlayNext" = "Auto-play next";
+"Player.ClosesYouTube" = "Close the YouTube player?";
+"Player.ClosesYouTube.Message" = "Playing in two players at once can lead to unexpected issues. The YouTube one will be closed.";
+"Player.DefaultLayout" = "Default layout";
+"Player.Direction.Default" = "Default";
+"Player.Direction.Inverted" = "Inverted";
+"Player.FullscreenDirection" = "Fullscreen direction";
+"Player.Layout.Adaptive" = "Adaptive fullscreen";
+"Player.Layout.Landscape" = "Landscape fullscreen";
+"Player.Layout.PlayerAndList" = "Player and list";
+"Player.Layout.PortraitFullscreen" = "Portrait fullscreen";
+"Player.Live" = "Live";
+"Player.MoreOptions" = "More options";
+"Player.Position" = "%ld / %ld • %@";
+"Player.RememberProgress" = "Remember progress";
+"Player.RememberProgressPlaylists" = "Remember progress in playlists";
+"Player.Skip.Disabled" = "Disable";
+"Player.Skip.Seek" = "Fast forward and rewind";
+"Player.Skip.Tracks" = "Previous and Next";
+"Player.SkipButtons" = "Skip buttons";
+"Player.TwoFingerToggle" = "Two-finger play/pause";
+"Player.Unplayable" = "This file can't be played";
+"Player.Unplayable.Message" = "This format is not supported by your device. Re-encode to H.264?";
+"PlayerNoAsk" = "Remove \"Ask\" button";
+"PlayerNoAskDesc" = "Removes \"Ask\" button under player.";
+"Preset" = "Encoding preset";
+"PresetMedium" = "Medium";
+"PresetMediumDesc" = "Slow • Smaller size";
+"PresetSkip" = "Skip conversion";
+"PresetSkipDesc" = "Fastest • Can't save to Photos";
+"PresetUltraFast" = "Ultra fast";
+"PresetUltraFastDesc" = "Fast • Bigger size";
+"PresetVeryFast" = "Very fast";
+"PresetVeryFastDesc" = "Balanced";
+"Quality" = "Quality";
+"ReplaceDownloadMenu" = "Replace \"Download\" in menu";
+"ReplaceDownloadMenuDesc" = "Opens the YTPlus download form instead of the native one.";
+"ResetOrder" = "Reset order";
+"SuppressUnmute" = "Keep preview muted on volume keys";
+"SuppressUnmuteDesc" = "Stops the volume buttons from unmuting inline previews.";
+
 /* Shorts options */
 "Shorts" = "Shorts";
 "PlaybackMode" = "재생 완료 동작";
@@ -315,8 +476,6 @@
 "HideShortsLogoDesc" = "Shorts 로고를 왼쪽 상단 모서리에 숨깁니다.";
 "HideShortsSearch" = "검색 버튼 숨기기";
 "HideShortsSearchDesc" = "Shorts 오버레이에서 검색 버튼을 숨깁니다.";
-"HideShortsCamera" = "카메라 버튼 숨기기";
-"HideShortsCameraDesc" = "Shorts 오버레이에서 카메라 버튼 숨기기";
 "HideShortsMore" = "더 보기 (⋮) 버튼 숨기기";
 "HideShortsMoreDesc" = "Shorts 오버레이에서 더 보기 (⋮) 버튼 숨기기. 화면을 길게 누르면 액세스할 수도 있습니다.";
 
@@ -331,8 +490,6 @@
 
 "HideShortsLike" = "좋아요 버튼 숨기기";
 "HideShortsLikeDesc" = "액션 바에서 좋아요 버튼을 제거합니다.";
-"HideShortsDislike" = "싫어요 버튼 숨기기";
-"HideShortsDislikeDesc" = "액션 바에서 싫어요 버튼을 제거합니다.";
 "HideShortsComments" = "댓글 버튼 숨기기";
 "HideShortsCommentsDesc" = "액션 바에서 댓글 버튼을 제거합니다.";
 "HideShortsShare" = "공유 버튼 없음";
@@ -355,6 +512,9 @@
 "HideShortsAudioDesc" = "Shorts에 사용된 오디오를 나타내는 줄을 제거합니다.";
 "HideShortsCommentBar" = "No comment bar";
 "HideShortsCommentBarDesc" = "Removes the comment bar in Shorts played from a user's profile.";
+
+"HideShortsMute" = "Hide Mute button";
+"HideShortsMuteDesc" = "Hides the sound toggle from the Shorts top bar.";
 
 /* Tab bar options */
 "Tabbar" = "탭 바";
@@ -385,6 +545,12 @@
 "Warning" = "경고";
 "AtLeastOneTab" = "At least one tab must remain active";
 "TabsCountRestricted" = "활성 탭은 최대 6개까지만 가질 수 있습니다";
+
+"AddPlaylistAsTab" = "Add as a tab";
+"EditTab" = "Edit tab";
+"RemoveTab" = "Remove tab";
+"TabIcon" = "Tab icon";
+"TabName" = "Tab name";
 
 /* Interface options */
 "Interface" = "인터페이스";
@@ -454,6 +620,28 @@
 "RemoveRemixMenuDesc" = "Removes \"Remix\" option from menu.";
 "RemoveYTMMenu" = "Remove \"YouTube Music\"";
 "RemoveYTMMenuDesc" = "Removes \"Listen with YouTube Music\" option from menu.";
+
+"Add" = "Add";
+"AddLanguage" = "Add language";
+"Auto" = "Auto";
+"AutoDubbed" = "Auto-dubbed";
+"Close" = "Close";
+"CommentAsImage" = "Comment as image";
+"DeselectAll" = "Deselect all";
+"HideCarouselLens" = "Hide Lens";
+"HideCarouselLensDesc" = "Removes Lens button that appears in paused state.";
+"OpenVidsInYTPlus" = "Open videos in YTPlus player";
+"OpenVidsInYTPlusDesc" = "Opens videos from the feed in YTPlus player.";
+"PostAsImage" = "Post as image";
+"RemovePlayLast" = "Remove \"Play last in queue\"";
+"RemovePlayLastDesc" = "Removes \"Play last in queue\" option from menu.";
+"RemovePlayOnDifferent" = "Remove \"Play on different device\"";
+"RemovePlayOnDifferentDesc" = "Removes \"Play on different device\" option from menu.";
+"SelectAll" = "Select all";
+"Settings" = "Settings";
+"Translate.Failed" = "The translator is unavailable right now. Please try again later.";
+"Translate.TooManyRequests" = "Google is rate limiting the translator. Please try again in a few minutes.";
+"Undo" = "Undo";
 
 /* SponsorBlock settings */
 "EnableSponsorBlock" = "활성화";
@@ -533,6 +721,40 @@
 "SkipToSegment" = "강조하기 위해";
 "Unskip" = "건너뛰기 해제";
 
+"AvailableSegments" = "Available segments";
+"NoSegments" = "None";
+"RemoveSegments" = "Remove segments";
+"RemovingSegments" = "Removing segments…";
+"Sb.AddSegment" = "Add segment";
+"Sb.Category" = "Category";
+"Sb.ChangeCategory" = "Change category";
+"Sb.ConfirmTitle" = "Submit these segments?";
+"Sb.Downvote" = "Downvote";
+"Sb.ExistingSegments" = "Existing segments";
+"Sb.HighlightNoEnd" = "Not needed for a highlight";
+"Sb.LeaveLandscape" = "Leave landscape mode to submit segments";
+"Sb.MarkHere" = "Tap to mark current time";
+"Sb.NewSegment" = "New segment";
+"Sb.NotChosen" = "Not chosen";
+"Sb.RemoveSegment" = "Remove segment";
+"Sb.SegmentEnd" = "Segment end";
+"Sb.SegmentStart" = "Segment start";
+"Sb.Submit" = "Submit";
+"Sb.SubmitDuplicate" = "This segment has already been submitted";
+"Sb.SubmitInvalid" = "Fill in the category and both boundaries first";
+"Sb.SubmitRejected" = "The auto moderator rejected this submission";
+"Sb.SubmitTooOften" = "Too many submissions. Please try again later";
+"Sb.Submitted" = "Segments submitted";
+"Sb.Submitting" = "Submitting…";
+"Sb.UndoVote" = "Undo vote";
+"Sb.Upvote" = "Upvote";
+"Sb.VoteSent" = "Vote sent";
+"SbWhitelistChannel" = "Whitelist this channel";
+"SegmentSkipFeedback" = "Haptic feedback";
+"SegmentSkipFeedbackDesc" = "Plays a haptic feedback when skipping a segment.";
+"SkipToHighlight" = "Skip to highlight";
+"SubmitSegments" = "Submit segments";
+
 /* Discord RPC */
 "DiscordRPC" = "Discord RPC Integration";
 "EnableDiscordRPC" = "Enable Discord RPC";
@@ -565,6 +787,10 @@
 "SleepTimer.SelectTime" = "Select time";
 "SleepTimer.Start" = "Start";
 
+"SleepTimer.AddTime" = "Add time";
+"SleepTimer.ChapterPassed" = "Already played";
+"SleepTimer.SelectChapter" = "Select chapter";
+
 /* Developer section */
 "Developer" = "개발자";
 "FollowMe" = "X에서 나를 팔로우하세요";
@@ -575,6 +801,14 @@
 "VisitGithubDesc" = "저장소를 별표 표시하거나, 기능 요청을 하거나, 문제를 보고하세요";
 "VisitTelegram" = "내 텔레그램 채널";
 "VisitTelegramDesc" = "최신 앱 업데이트에 대한 정보를 받아 보세요";
+
+"NotifyUpdates" = "Notify Updates";
+"NotifyUpdatesDesc" = "Shows an alert if a new version of the tweak is available";
+"Update.Dismiss" = "Dismiss";
+"Update.Message" = "A new version is available";
+"Update.Repo" = "Web repo";
+"Update.Skip" = "Skip this version";
+"UpdatePreferences" = "Updates";
 
 /* Credits section */
 "Credits" = "크레딧";
@@ -735,17 +969,3 @@
 "DonationReminder" = "여러분의 지원이 YouTube Plus를 더욱 발전시키는 데 도움이 됩니다.\n\nYouTube Plus 설정에서 이 알림을 활성화하거나 비활성화할 수 있습니다. 감사합니다💜";
 
 /* Old localizations (commented out for reference)
-"ExtraSpeedOptions" = "재생 속도 옵션 추가";
-"ExtraSpeedOptionsDesc" = "플레이어 메뉴에 더 많은 비디오 재생 속도 옵션을 추가합니다.";
-"CastingErrorTitle" = "Wait a minute...";
-"CastingErrorMessage" = "You're most likely seeing this because your certificate doesn't have Multicast permission.";
-"CastingAction" = "Settings";
-"OpenSettings" = "Open settings";
-"WhatIsMulticast?" = "What is Multicast?";
-"NoYTLogo" = "YouTube 로고 제거";
-"NoYTLogoDesc" = "탐색 표시줄의 YouTube 로고 제거";
-"PremiumYTLogo" = "프리미엄 YouTube 로고 설정";
-"PremiumYTLogoDesc" = "탐색 표시줄의 프리미엄 YouTube 로고 설정";
-"SpeedLocation" = "활성화 위치 속도 향상";
-"TabIsHidden" = "숨겨진 탭은 시작 페이지로 선택할 수 없습니다";
-"TabIsStartupTab" = "시작 페이지로 선택된 탭은 숨길 수 없습니다";
