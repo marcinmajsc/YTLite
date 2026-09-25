@@ -9,6 +9,18 @@
 "LogOutMessage" = "Bạn có chắc chắn muốn tiếp tục không?";
 "FeaturesNotActivated" = "Bạn hiện chưa đăng nhập. Để sử dụng được các tính năng của YouTube Plus, vui lòng đăng nhập bằng tài khoản có gói đăng ký đang hoạt động.";
 
+"Access.AccountRequired" = "Account required";
+"Access.Active" = "Active";
+"Access.AppNotFound" = "App is not registered";
+"Access.DeviceLimit" = "Device limit reached";
+"Access.DeviceNotRegistered" = "Device is not linked";
+"Access.InsufficientPlan" = "Subscription level is too low";
+"Access.LogIn" = "Log in";
+"Access.NotFound" = "Account not found";
+"Access.RequestError" = "Request error";
+"Access.SignInAgain" = "Sign in again";
+"Access.Status" = "Subscription status";
+
 /* Main section */
 "Main" = "Cài đặt chính";
 "Search" = "Tìm kiếm";
@@ -59,6 +71,95 @@
 "Translated" = "đã dịch";
 "TranslatedAutoGen" = "tự động dịch";
 
+"AfterDownload" = "Save in...";
+"AlreadyDownloading" = "This video is already downloading";
+"AudioOnly" = "Audio only";
+"AudioTrack" = "Audio track";
+"Captions" = "Captions";
+"ChangeCover" = "Change cover";
+"CurrentImage" = "Image";
+"Delete" = "Delete";
+"Download" = "Download";
+"Download.Failed" = "Failed to download. Error code: %@";
+"DownloadPlaylist" = "Download playlist";
+"Downloads.Added" = "Added to downloading list";
+"Downloads.All" = "All";
+"Downloads.AlreadyDownloaded" = "Everything is already downloaded";
+"Downloads.Audio" = "Audio";
+"Downloads.DeletePlaylist" = "Delete playlist?";
+"Downloads.DeletePlaylist.Message" = "All of its downloads will be removed.";
+"Downloads.Deleted" = "Deleted";
+"Downloads.DeselectAll" = "Deselect all";
+"Downloads.Downloading" = "Downloading";
+"Downloads.Duplicate.Message" = "It will be saved as a separate copy. Continue?";
+"Downloads.Duplicate.Playlist" = "This playlist is already in downloads";
+"Downloads.Duplicate.Playlist.Message" = "Files already downloaded will be skipped — only the missing ones are fetched. Continue?";
+"Downloads.Duplicate.Video" = "This video is already in downloads";
+"Downloads.Empty" = "Nothing downloaded yet";
+"Downloads.Interrupted" = "Interrupted";
+"Downloads.Largest" = "Largest";
+"Downloads.Menu.MoveToPrivate" = "Move to Private section";
+"Downloads.Menu.MoveToPublic" = "Move back to Public sections";
+"Downloads.Menu.OpenInYouTube" = "Open video in YouTube";
+"Downloads.Menu.OpenPlaylist" = "Open playlist in YouTube";
+"Downloads.Menu.Reencode" = "Re-encode";
+"Downloads.Menu.Rename" = "Rename";
+"Downloads.Menu.SaveToPhotos" = "Save to Photos";
+"Downloads.Menu.Share" = "Share";
+"Downloads.Menu.VisitChannel" = "Visit creator's profile";
+"Downloads.MovedToPrivate" = "Moved to Private";
+"Downloads.MovedToPublic" = "Moved back to Public";
+"Downloads.Newest" = "Newest";
+"Downloads.Oldest" = "Oldest";
+"Downloads.ParallelConversions" = "Simultaneous processing";
+"Downloads.ParallelConversionsDesc" = "How many files are merged, cut or re-encoded at once. More than one is usually slower than one after another.";
+"Downloads.ParallelDownloads" = "Simultaneous downloads";
+"Downloads.ParallelDownloadsDesc" = "How many files are downloaded at once. The rest wait their turn.";
+"Downloads.Paused" = "Paused";
+"Downloads.Playlists" = "Playlists";
+"Downloads.Private" = "Private";
+"Downloads.PrivateDownload" = "Private download";
+"Downloads.Queue" = "Queue";
+"Downloads.Queued" = "Queued…";
+"Downloads.SaveWithoutEncoding" = "Save without re-encoding";
+"Downloads.Select" = "Select";
+"Downloads.SelectAll" = "Select all";
+"Downloads.Selected" = "Actions for selected";
+"Downloads.Shorts" = "Shorts";
+"Downloads.Smallest" = "Smallest";
+"Downloads.StopConverting" = "Stop converting?";
+"Downloads.StopConverting.Message" = "The downloaded video and audio can be saved as they are and re-encoded later.";
+"Downloads.StopOperation" = "Stop";
+"Downloads.StopOperation.Message" = "The file will stay unchanged.";
+"Downloads.Swipe.Channel" = "Channel";
+"Downloads.Swipe.Playlist" = "Playlist";
+"Downloads.Swipe.Video" = "Video";
+"Downloads.Unlock" = "Unlock";
+"Downloads.UnlockReason" = "Unlock private downloads";
+"Downloads.Videos" = "Videos";
+"EditMetadata" = "Edit metadata";
+"FetchingData" = "Fetching video data...";
+"Format" = "Format";
+"MetadataAlbum" = "Album";
+"MetadataArtist" = "Artist";
+"MetadataCover" = "Cover";
+"MetadataRemoveCover" = "Remove cover";
+"MetadataTitle" = "Title";
+"MetadataYear" = "Year";
+"NoCaptions" = "Don't add captions";
+"PlaylistDownloadFooter" = "Media can be converted, and both media and their metadata edited, later from the Downloads tab.";
+"PlaylistQualityAV1" = "Best av1/vp9 • Up to 4K";
+"PlaylistQualityAVC" = "Best avc1 • Up to 1080p";
+"PlaylistQualityAudio" = "Audio only • Original";
+"PlaylistQualityMP3" = "Audio only • MP3";
+"PreferredQuality" = "Preferred quality";
+"RequiresReencoding" = "Requires re-encoding";
+"SaveCaptions" = "Save captions";
+"SaveToDownloads" = "Downloads";
+"SaveToPrivate" = "Private section";
+"SelectedMedia" = "Selected media";
+"StableVolume" = "Stable volume";
+
 /* Nav bar options */
 "Navbar" = "Thanh điều hướng";
 "RemoveCast" = "Ẩn nút Truyền";
@@ -76,6 +177,10 @@
 "LogoImage" = "Hình ảnh biểu trưng";
 "LogoImageDesc" = "Thay thế biểu trưng YouTube trên thanh điều hướng bằng hình ảnh đã chọn.";
 "NoLogo" = "Ẩn biểu trưng";
+
+"FEytp_downloads" = "Downloads";
+"RemoveMessages" = "Hide Messages button";
+"RemoveMessagesDesc" = "Hides Messages button from the Navigation bar.";
 
 /* Feed options */
 "Feed" = "Trang xem";
@@ -99,6 +204,15 @@
 "RemovePlayablesDesc" = "Ẩn các trò chơi nhỏ (minigame) khỏi trang xem.";
 "FixAlbums" = "Sửa lỗi ảnh bìa Album";
 "FixAlbumsDesc" = "Sửa lỗi hiển thị ảnh bìa Album cho người dùng tại Nga.";
+
+"KeepPlaylistsInSubscriptions" = "Keep playlists in Subscriptions";
+"KeepPlaylistsInSubscriptionsDesc" = "Prevents removing playlists from Subscriptions tab.";
+"RemoveMembersOnly" = "Remove members-only videos";
+"RemoveMembersOnlyDesc" = "Removes videos available to channel members only from the feed.";
+"RemovePlaylists" = "Remove playlists";
+"RemovePlaylistsDesc" = "Removes playlist cards from the feed.";
+"RemoveUpcomingLives" = "Remove upcoming streams";
+"RemoveUpcomingLivesDesc" = "Removes scheduled stream announcements from the feed.";
 
 /* Player options */
 "Player" = "Trình phát";
@@ -138,8 +252,6 @@
 "HidePrevNextDesc" = "Ẩn nút chuyển đến video trước hoặc video tiếp theo khỏi trình phát.";
 "ReplacePrevNext" = "Dùng nút Tua đi và Tua lại";
 "ReplacePrevNextDesc" = "Thay thế nút chuyển đến video trước hoặc tiếp theo trong trình phát bằng nút tua video.";
-"RememberLoopMode" = "Ghi nhớ chế độ vòng lặp";
-"RememberLoopModeDesc" = "Ghi nhớ chế độ vòng lặp đã chọn lần cuối trong menu trình phát.";
 "FullscreenToTheLeft" = "Xoay màn hình sang trái";
 "FullscreenToTheLeftDesc" = "Nhấn vào nút toàn màn hình sẽ xoay màn hình sang trái thay vì sang phải như thông thường.";
 "PortraitFullscreen" = "Chế độ toàn màn hình dọc";
@@ -279,6 +391,55 @@
 "NoDoubleTap2Seek" = "Tắt chạm hai lần để tua";
 "NoDoubleTap2SeekDesc" = "Tắt thao tác chạm hai lần để tua";
 
+"FullscreenButton" = "Fullscreen to the right";
+"FullscreenButtonDesc" = "Adds a button that opens fullscreen rotated the other way than the YouTube one, even with rotation lock on.";
+"LoopButton" = "Loop button";
+"LoopButtonDesc" = "Displays a button that loops the current video.";
+"OverlayButtonsOrder" = "Overlay buttons order";
+"OverlayButtonsOrderDesc" = "Sets the order of YTPlus buttons in the player overlay.";
+"PiPButton" = "Picture in Picture button";
+"PiPButtonDesc" = "Displays a button that turns Picture in Picture on and off for backgrounding.";
+"Player.AutoPlayNext" = "Auto-play next";
+"Player.ClosesYouTube" = "Close the YouTube player?";
+"Player.ClosesYouTube.Message" = "Playing in two players at once can lead to unexpected issues. The YouTube one will be closed.";
+"Player.DefaultLayout" = "Default layout";
+"Player.Direction.Default" = "Default";
+"Player.Direction.Inverted" = "Inverted";
+"Player.FullscreenDirection" = "Fullscreen direction";
+"Player.Layout.Adaptive" = "Adaptive fullscreen";
+"Player.Layout.Landscape" = "Landscape fullscreen";
+"Player.Layout.PlayerAndList" = "Player and list";
+"Player.Layout.PortraitFullscreen" = "Portrait fullscreen";
+"Player.Live" = "Live";
+"Player.MoreOptions" = "More options";
+"Player.Position" = "%ld / %ld • %@";
+"Player.RememberProgress" = "Remember progress";
+"Player.RememberProgressPlaylists" = "Remember progress in playlists";
+"Player.Skip.Disabled" = "Disable";
+"Player.Skip.Seek" = "Fast forward and rewind";
+"Player.Skip.Tracks" = "Previous and Next";
+"Player.SkipButtons" = "Skip buttons";
+"Player.TwoFingerToggle" = "Two-finger play/pause";
+"Player.Unplayable" = "This file can't be played";
+"Player.Unplayable.Message" = "This format is not supported by your device. Re-encode to H.264?";
+"PlayerNoAsk" = "Remove \"Ask\" button";
+"PlayerNoAskDesc" = "Removes \"Ask\" button under player.";
+"Preset" = "Encoding preset";
+"PresetMedium" = "Medium";
+"PresetMediumDesc" = "Slow • Smaller size";
+"PresetSkip" = "Skip conversion";
+"PresetSkipDesc" = "Fastest • Can't save to Photos";
+"PresetUltraFast" = "Ultra fast";
+"PresetUltraFastDesc" = "Fast • Bigger size";
+"PresetVeryFast" = "Very fast";
+"PresetVeryFastDesc" = "Balanced";
+"Quality" = "Quality";
+"ReplaceDownloadMenu" = "Replace \"Download\" in menu";
+"ReplaceDownloadMenuDesc" = "Opens the YTPlus download form instead of the native one.";
+"ResetOrder" = "Reset order";
+"SuppressUnmute" = "Keep preview muted on volume keys";
+"SuppressUnmuteDesc" = "Stops the volume buttons from unmuting inline previews.";
+
 /* Shorts options */
 "Shorts" = "Video ngắn (Shorts)";
 "PlaybackMode" = "Sau khi kết thúc video";
@@ -315,8 +476,6 @@
 "HideShortsLogoDesc" = "Ẩn biểu trưng Shorts ở góc trên bên trái màn hình.";
 "HideShortsSearch" = "Ẩn nút Tìm kiếm";
 "HideShortsSearchDesc" = "Ẩn nút tìm kiếm nội dung ở cạnh trên.";
-"HideShortsCamera" = "Ẩn nút Máy ảnh";
-"HideShortsCameraDesc" = "Ẩn nút mở máy ảnh để tạo nội dung ở cạnh trên.";
 "HideShortsMore" = "Ẩn nút Thêm (⋮)";
 "HideShortsMoreDesc" = "Ẩn nút mở menu tùy chọn bổ sung ở cạnh trên. Bạn vẫn có thể truy cập menu này bằng cách nhấn giữ vào màn hình.";
 
@@ -331,8 +490,6 @@
 
 "HideShortsLike" = "Ẩn nút Thích";
 "HideShortsLikeDesc" = "Ẩn nút thích video ở cạnh bên.";
-"HideShortsDislike" = "Ẩn nút Không thích";
-"HideShortsDislikeDesc" = "Ẩn nút không thích video ở cạnh bên.";
 "HideShortsComments" = "Ẩn nút Bình luận";
 "HideShortsCommentsDesc" = "Ẩn nút mở phần bình luận ở cạnh bên.";
 "HideShortsShare" = "Ẩn nút Chia sẻ";
@@ -355,6 +512,9 @@
 "HideShortsAudioDesc" = "Ẩn dòng văn bản biểu thị âm thanh được sử dụng trong video hiện tại.";
 "HideShortsCommentBar" = "Ẩn thanh bình luận";
 "HideShortsCommentBarDesc" = "Ẩn thanh bình luận khi phát video ngắn từ trang của người dùng.";
+
+"HideShortsMute" = "Hide Mute button";
+"HideShortsMuteDesc" = "Hides the sound toggle from the Shorts top bar.";
 
 /* Tab bar options */
 "Tabbar" = "Thanh tab";
@@ -385,6 +545,12 @@
 "Warning" = "Cảnh báo";
 "AtLeastOneTab" = "Bạn phải hiển thị tối thiểu một tab";
 "TabsCountRestricted" = "Bạn chỉ được hiển thị tối đa sáu tab";
+
+"AddPlaylistAsTab" = "Add as a tab";
+"EditTab" = "Edit tab";
+"RemoveTab" = "Remove tab";
+"TabIcon" = "Tab icon";
+"TabName" = "Tab name";
 
 /* Interface options */
 "Interface" = "Giao diện";
@@ -454,6 +620,28 @@
 "RemoveRemixMenuDesc" = "Ẩn tùy chọn phối lại video khỏi menu.";
 "RemoveYTMMenu" = "Ẩn \"YouTube Music\"";
 "RemoveYTMMenuDesc" = "Ẩn tùy chọn \"Nghe nhạc trên YouTube Music\" khỏi menu.";
+
+"Add" = "Add";
+"AddLanguage" = "Add language";
+"Auto" = "Auto";
+"AutoDubbed" = "Auto-dubbed";
+"Close" = "Close";
+"CommentAsImage" = "Comment as image";
+"DeselectAll" = "Deselect all";
+"HideCarouselLens" = "Hide Lens";
+"HideCarouselLensDesc" = "Removes Lens button that appears in paused state.";
+"OpenVidsInYTPlus" = "Open videos in YTPlus player";
+"OpenVidsInYTPlusDesc" = "Opens videos from the feed in YTPlus player.";
+"PostAsImage" = "Post as image";
+"RemovePlayLast" = "Remove \"Play last in queue\"";
+"RemovePlayLastDesc" = "Removes \"Play last in queue\" option from menu.";
+"RemovePlayOnDifferent" = "Remove \"Play on different device\"";
+"RemovePlayOnDifferentDesc" = "Removes \"Play on different device\" option from menu.";
+"SelectAll" = "Select all";
+"Settings" = "Settings";
+"Translate.Failed" = "The translator is unavailable right now. Please try again later.";
+"Translate.TooManyRequests" = "Google is rate limiting the translator. Please try again in a few minutes.";
+"Undo" = "Undo";
 
 /* SponsorBlock settings */
 "EnableSponsorBlock" = "Bật";
@@ -533,6 +721,40 @@
 "SkipToSegment" = "Đến phần nổi bật";
 "Unskip" = "Hoàn tác";
 
+"AvailableSegments" = "Available segments";
+"NoSegments" = "None";
+"RemoveSegments" = "Remove segments";
+"RemovingSegments" = "Removing segments…";
+"Sb.AddSegment" = "Add segment";
+"Sb.Category" = "Category";
+"Sb.ChangeCategory" = "Change category";
+"Sb.ConfirmTitle" = "Submit these segments?";
+"Sb.Downvote" = "Downvote";
+"Sb.ExistingSegments" = "Existing segments";
+"Sb.HighlightNoEnd" = "Not needed for a highlight";
+"Sb.LeaveLandscape" = "Leave landscape mode to submit segments";
+"Sb.MarkHere" = "Tap to mark current time";
+"Sb.NewSegment" = "New segment";
+"Sb.NotChosen" = "Not chosen";
+"Sb.RemoveSegment" = "Remove segment";
+"Sb.SegmentEnd" = "Segment end";
+"Sb.SegmentStart" = "Segment start";
+"Sb.Submit" = "Submit";
+"Sb.SubmitDuplicate" = "This segment has already been submitted";
+"Sb.SubmitInvalid" = "Fill in the category and both boundaries first";
+"Sb.SubmitRejected" = "The auto moderator rejected this submission";
+"Sb.SubmitTooOften" = "Too many submissions. Please try again later";
+"Sb.Submitted" = "Segments submitted";
+"Sb.Submitting" = "Submitting…";
+"Sb.UndoVote" = "Undo vote";
+"Sb.Upvote" = "Upvote";
+"Sb.VoteSent" = "Vote sent";
+"SbWhitelistChannel" = "Whitelist this channel";
+"SegmentSkipFeedback" = "Haptic feedback";
+"SegmentSkipFeedbackDesc" = "Plays a haptic feedback when skipping a segment.";
+"SkipToHighlight" = "Skip to highlight";
+"SubmitSegments" = "Submit segments";
+
 /* Discord RPC */
 "DiscordRPC" = "Tích hợp Discord RPC";
 "EnableDiscordRPC" = "Bật Discord RPC";
@@ -565,6 +787,10 @@
 "SleepTimer.SelectTime" = "Chọn thời gian";
 "SleepTimer.Start" = "Bắt đầu";
 
+"SleepTimer.AddTime" = "Add time";
+"SleepTimer.ChapterPassed" = "Already played";
+"SleepTimer.SelectChapter" = "Select chapter";
+
 /* Developer section */
 "Developer" = "Nhà phát triển";
 "FollowMe" = "Theo dõi tôi trên X";
@@ -575,6 +801,14 @@
 "VisitGithubDesc" = "Gắn sao repo, yêu cầu tính năng hoặc báo lỗi";
 "VisitTelegram" = "Kênh Telegram của tôi";
 "VisitTelegramDesc" = "Nhận thông tin về các bản cập nhật mới nhất";
+
+"NotifyUpdates" = "Notify Updates";
+"NotifyUpdatesDesc" = "Shows an alert if a new version of the tweak is available";
+"Update.Dismiss" = "Dismiss";
+"Update.Message" = "A new version is available";
+"Update.Repo" = "Web repo";
+"Update.Skip" = "Skip this version";
+"UpdatePreferences" = "Updates";
 
 /* Credits section */
 "Credits" = "Ghi công";

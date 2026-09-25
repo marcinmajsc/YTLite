@@ -9,6 +9,18 @@
 "LogOutMessage" = "您确定要继续吗？";
 "FeaturesNotActivated" = "您尚未登录。要访问 YouTube Plus 功能，请使用有效订阅登录。";
 
+"Access.AccountRequired" = "Account required";
+"Access.Active" = "Active";
+"Access.AppNotFound" = "App is not registered";
+"Access.DeviceLimit" = "Device limit reached";
+"Access.DeviceNotRegistered" = "Device is not linked";
+"Access.InsufficientPlan" = "Subscription level is too low";
+"Access.LogIn" = "Log in";
+"Access.NotFound" = "Account not found";
+"Access.RequestError" = "Request error";
+"Access.SignInAgain" = "Sign in again";
+"Access.Status" = "Subscription status";
+
 /* Main section */
 "Main" = "主功能";
 "Search" = "搜索";
@@ -59,6 +71,95 @@
 "Translated" = "已翻译";
 "TranslatedAutoGen" = "自动翻译";
 
+"AfterDownload" = "Save in...";
+"AlreadyDownloading" = "This video is already downloading";
+"AudioOnly" = "Audio only";
+"AudioTrack" = "Audio track";
+"Captions" = "Captions";
+"ChangeCover" = "Change cover";
+"CurrentImage" = "Image";
+"Delete" = "Delete";
+"Download" = "Download";
+"Download.Failed" = "Failed to download. Error code: %@";
+"DownloadPlaylist" = "Download playlist";
+"Downloads.Added" = "Added to downloading list";
+"Downloads.All" = "All";
+"Downloads.AlreadyDownloaded" = "Everything is already downloaded";
+"Downloads.Audio" = "Audio";
+"Downloads.DeletePlaylist" = "Delete playlist?";
+"Downloads.DeletePlaylist.Message" = "All of its downloads will be removed.";
+"Downloads.Deleted" = "Deleted";
+"Downloads.DeselectAll" = "Deselect all";
+"Downloads.Downloading" = "Downloading";
+"Downloads.Duplicate.Message" = "It will be saved as a separate copy. Continue?";
+"Downloads.Duplicate.Playlist" = "This playlist is already in downloads";
+"Downloads.Duplicate.Playlist.Message" = "Files already downloaded will be skipped — only the missing ones are fetched. Continue?";
+"Downloads.Duplicate.Video" = "This video is already in downloads";
+"Downloads.Empty" = "Nothing downloaded yet";
+"Downloads.Interrupted" = "Interrupted";
+"Downloads.Largest" = "Largest";
+"Downloads.Menu.MoveToPrivate" = "Move to Private section";
+"Downloads.Menu.MoveToPublic" = "Move back to Public sections";
+"Downloads.Menu.OpenInYouTube" = "Open video in YouTube";
+"Downloads.Menu.OpenPlaylist" = "Open playlist in YouTube";
+"Downloads.Menu.Reencode" = "Re-encode";
+"Downloads.Menu.Rename" = "Rename";
+"Downloads.Menu.SaveToPhotos" = "Save to Photos";
+"Downloads.Menu.Share" = "Share";
+"Downloads.Menu.VisitChannel" = "Visit creator's profile";
+"Downloads.MovedToPrivate" = "Moved to Private";
+"Downloads.MovedToPublic" = "Moved back to Public";
+"Downloads.Newest" = "Newest";
+"Downloads.Oldest" = "Oldest";
+"Downloads.ParallelConversions" = "Simultaneous processing";
+"Downloads.ParallelConversionsDesc" = "How many files are merged, cut or re-encoded at once. More than one is usually slower than one after another.";
+"Downloads.ParallelDownloads" = "Simultaneous downloads";
+"Downloads.ParallelDownloadsDesc" = "How many files are downloaded at once. The rest wait their turn.";
+"Downloads.Paused" = "Paused";
+"Downloads.Playlists" = "Playlists";
+"Downloads.Private" = "Private";
+"Downloads.PrivateDownload" = "Private download";
+"Downloads.Queue" = "Queue";
+"Downloads.Queued" = "Queued…";
+"Downloads.SaveWithoutEncoding" = "Save without re-encoding";
+"Downloads.Select" = "Select";
+"Downloads.SelectAll" = "Select all";
+"Downloads.Selected" = "Actions for selected";
+"Downloads.Shorts" = "Shorts";
+"Downloads.Smallest" = "Smallest";
+"Downloads.StopConverting" = "Stop converting?";
+"Downloads.StopConverting.Message" = "The downloaded video and audio can be saved as they are and re-encoded later.";
+"Downloads.StopOperation" = "Stop";
+"Downloads.StopOperation.Message" = "The file will stay unchanged.";
+"Downloads.Swipe.Channel" = "Channel";
+"Downloads.Swipe.Playlist" = "Playlist";
+"Downloads.Swipe.Video" = "Video";
+"Downloads.Unlock" = "Unlock";
+"Downloads.UnlockReason" = "Unlock private downloads";
+"Downloads.Videos" = "Videos";
+"EditMetadata" = "Edit metadata";
+"FetchingData" = "Fetching video data...";
+"Format" = "Format";
+"MetadataAlbum" = "Album";
+"MetadataArtist" = "Artist";
+"MetadataCover" = "Cover";
+"MetadataRemoveCover" = "Remove cover";
+"MetadataTitle" = "Title";
+"MetadataYear" = "Year";
+"NoCaptions" = "Don't add captions";
+"PlaylistDownloadFooter" = "Media can be converted, and both media and their metadata edited, later from the Downloads tab.";
+"PlaylistQualityAV1" = "Best av1/vp9 • Up to 4K";
+"PlaylistQualityAVC" = "Best avc1 • Up to 1080p";
+"PlaylistQualityAudio" = "Audio only • Original";
+"PlaylistQualityMP3" = "Audio only • MP3";
+"PreferredQuality" = "Preferred quality";
+"RequiresReencoding" = "Requires re-encoding";
+"SaveCaptions" = "Save captions";
+"SaveToDownloads" = "Downloads";
+"SaveToPrivate" = "Private section";
+"SelectedMedia" = "Selected media";
+"StableVolume" = "Stable volume";
+
 /* Nav bar options */
 "Navbar" = "导航栏";
 "RemoveCast" = "隐藏投射按钮";
@@ -76,6 +177,10 @@
 "LogoImage" = "Logo标志";
 "LogoImageDesc" = "将导航栏中 YouTube 标志替换为选择的标志。";
 "NoLogo" = "移除标志";
+
+"FEytp_downloads" = "Downloads";
+"RemoveMessages" = "Hide Messages button";
+"RemoveMessagesDesc" = "Hides Messages button from the Navigation bar.";
 
 /* Feed options */
 "Feed" = "视频流";
@@ -99,6 +204,15 @@
 "RemovePlayablesDesc" = "从视频流中移除可玩内容（迷你游戏）。";
 "FixAlbums" = "修复封面";
 "FixAlbumsDesc" = "修复来自俄罗斯用户的封面显示问题。";
+
+"KeepPlaylistsInSubscriptions" = "Keep playlists in Subscriptions";
+"KeepPlaylistsInSubscriptionsDesc" = "Prevents removing playlists from Subscriptions tab.";
+"RemoveMembersOnly" = "Remove members-only videos";
+"RemoveMembersOnlyDesc" = "Removes videos available to channel members only from the feed.";
+"RemovePlaylists" = "Remove playlists";
+"RemovePlaylistsDesc" = "Removes playlist cards from the feed.";
+"RemoveUpcomingLives" = "Remove upcoming streams";
+"RemoveUpcomingLivesDesc" = "Removes scheduled stream announcements from the feed.";
 
 /* Player options */
 "Player" = "播放器";
@@ -138,8 +252,6 @@
 "HidePrevNextDesc" = "在播放界面中隐藏上一个和下一个视频按钮。";
 "ReplacePrevNext" = "快进和快退按钮";
 "ReplacePrevNextDesc" = "将上一个和下一个视频按钮替换为快进和快退按钮。";
-"RememberLoopMode" = "记住循环模式";
-"RememberLoopModeDesc" = "记住播放器菜单中最后选择的循环模式。";
 "FullscreenToTheLeft" = "全屏左旋转";
 "FullscreenToTheLeftDesc" = "点击全屏按钮后，屏幕全屏且向左旋转显示，而不是通常的向右。";
 "PortraitFullscreen" = "竖屏全屏模式";
@@ -279,6 +391,55 @@
 "NoDoubleTap2Seek" = "禁用双击搜索";
 "NoDoubleTap2SeekDesc" = "禁用双击搜索手势。";
 
+"FullscreenButton" = "Fullscreen to the right";
+"FullscreenButtonDesc" = "Adds a button that opens fullscreen rotated the other way than the YouTube one, even with rotation lock on.";
+"LoopButton" = "Loop button";
+"LoopButtonDesc" = "Displays a button that loops the current video.";
+"OverlayButtonsOrder" = "Overlay buttons order";
+"OverlayButtonsOrderDesc" = "Sets the order of YTPlus buttons in the player overlay.";
+"PiPButton" = "Picture in Picture button";
+"PiPButtonDesc" = "Displays a button that turns Picture in Picture on and off for backgrounding.";
+"Player.AutoPlayNext" = "Auto-play next";
+"Player.ClosesYouTube" = "Close the YouTube player?";
+"Player.ClosesYouTube.Message" = "Playing in two players at once can lead to unexpected issues. The YouTube one will be closed.";
+"Player.DefaultLayout" = "Default layout";
+"Player.Direction.Default" = "Default";
+"Player.Direction.Inverted" = "Inverted";
+"Player.FullscreenDirection" = "Fullscreen direction";
+"Player.Layout.Adaptive" = "Adaptive fullscreen";
+"Player.Layout.Landscape" = "Landscape fullscreen";
+"Player.Layout.PlayerAndList" = "Player and list";
+"Player.Layout.PortraitFullscreen" = "Portrait fullscreen";
+"Player.Live" = "Live";
+"Player.MoreOptions" = "More options";
+"Player.Position" = "%ld / %ld • %@";
+"Player.RememberProgress" = "Remember progress";
+"Player.RememberProgressPlaylists" = "Remember progress in playlists";
+"Player.Skip.Disabled" = "Disable";
+"Player.Skip.Seek" = "Fast forward and rewind";
+"Player.Skip.Tracks" = "Previous and Next";
+"Player.SkipButtons" = "Skip buttons";
+"Player.TwoFingerToggle" = "Two-finger play/pause";
+"Player.Unplayable" = "This file can't be played";
+"Player.Unplayable.Message" = "This format is not supported by your device. Re-encode to H.264?";
+"PlayerNoAsk" = "Remove \"Ask\" button";
+"PlayerNoAskDesc" = "Removes \"Ask\" button under player.";
+"Preset" = "Encoding preset";
+"PresetMedium" = "Medium";
+"PresetMediumDesc" = "Slow • Smaller size";
+"PresetSkip" = "Skip conversion";
+"PresetSkipDesc" = "Fastest • Can't save to Photos";
+"PresetUltraFast" = "Ultra fast";
+"PresetUltraFastDesc" = "Fast • Bigger size";
+"PresetVeryFast" = "Very fast";
+"PresetVeryFastDesc" = "Balanced";
+"Quality" = "Quality";
+"ReplaceDownloadMenu" = "Replace \"Download\" in menu";
+"ReplaceDownloadMenuDesc" = "Opens the YTPlus download form instead of the native one.";
+"ResetOrder" = "Reset order";
+"SuppressUnmute" = "Keep preview muted on volume keys";
+"SuppressUnmuteDesc" = "Stops the volume buttons from unmuting inline previews.";
+
 /* Shorts options */
 "Shorts" = "短视频";
 "PlaybackMode" = "播放完成动作";
@@ -315,8 +476,6 @@
 "HideShortsLogoDesc" = "隐藏左上角的短视频 Logo";
 "HideShortsSearch" = "隐藏搜索按钮";
 "HideShortsSearchDesc" = "从短视频播放器中隐藏搜索按钮。";
-"HideShortsCamera" = "隐藏相机按钮";
-"HideShortsCameraDesc" = "从短视频播放器中隐藏相机按钮。";
 "HideShortsMore" = "隐藏更多(⋮)按钮";
 "HideShortsMoreDesc" = "从短视频播放器中隐藏更多(⋮)按钮 。也可以通过长按屏幕来访问它。";
 
@@ -331,8 +490,6 @@
 
 "HideShortsLike" = "隐藏“赞”按钮";
 "HideShortsLikeDesc" = "隐藏操作栏中的“赞”按钮。";
-"HideShortsDislike" = "隐藏“踩”按钮";
-"HideShortsDislikeDesc" = "隐藏操作栏中的“不喜欢”按钮。";
 "HideShortsComments" = "隐藏评论按钮";
 "HideShortsCommentsDesc" = "隐藏操作栏中的“评论”按钮。";
 "HideShortsShare" = "隐藏分享按钮";
@@ -355,6 +512,9 @@
 "HideShortsAudioDesc" = "隐藏短视频中使用的音频引用指示。";
 "HideShortsCommentBar" = "隐藏评论栏";
 "HideShortsCommentBarDesc" = "隐藏在用户主页播放的短视频中的评论栏。";
+
+"HideShortsMute" = "Hide Mute button";
+"HideShortsMuteDesc" = "Hides the sound toggle from the Shorts top bar.";
 
 /* Tab bar options */
 "Tabbar" = "标签栏";
@@ -385,6 +545,12 @@
 "Warning" = "警告";
 "AtLeastOneTab" = "至少有一个标签页必须保持活跃状态。";
 "TabsCountRestricted" = "最多只能拥有六个活动标签页";
+
+"AddPlaylistAsTab" = "Add as a tab";
+"EditTab" = "Edit tab";
+"RemoveTab" = "Remove tab";
+"TabIcon" = "Tab icon";
+"TabName" = "Tab name";
 
 /* Interface options */
 "Interface" = "界面项";
@@ -454,6 +620,28 @@
 "RemoveRemixMenuDesc" = "从菜单中移除“混剪”选项。";
 "RemoveYTMMenu" = "移除“YouTube 音乐”";
 "RemoveYTMMenuDesc" = "从菜单中移除“使用 YouTube 音乐收听”选项。";
+
+"Add" = "Add";
+"AddLanguage" = "Add language";
+"Auto" = "Auto";
+"AutoDubbed" = "Auto-dubbed";
+"Close" = "Close";
+"CommentAsImage" = "Comment as image";
+"DeselectAll" = "Deselect all";
+"HideCarouselLens" = "Hide Lens";
+"HideCarouselLensDesc" = "Removes Lens button that appears in paused state.";
+"OpenVidsInYTPlus" = "Open videos in YTPlus player";
+"OpenVidsInYTPlusDesc" = "Opens videos from the feed in YTPlus player.";
+"PostAsImage" = "Post as image";
+"RemovePlayLast" = "Remove \"Play last in queue\"";
+"RemovePlayLastDesc" = "Removes \"Play last in queue\" option from menu.";
+"RemovePlayOnDifferent" = "Remove \"Play on different device\"";
+"RemovePlayOnDifferentDesc" = "Removes \"Play on different device\" option from menu.";
+"SelectAll" = "Select all";
+"Settings" = "Settings";
+"Translate.Failed" = "The translator is unavailable right now. Please try again later.";
+"Translate.TooManyRequests" = "Google is rate limiting the translator. Please try again in a few minutes.";
+"Undo" = "Undo";
 
 /* SponsorBlock settings */
 "EnableSponsorBlock" = "启用";
@@ -533,6 +721,40 @@
 "SkipToSegment" = "跳到重点";
 "Unskip" = "不跳过";
 
+"AvailableSegments" = "Available segments";
+"NoSegments" = "None";
+"RemoveSegments" = "Remove segments";
+"RemovingSegments" = "Removing segments…";
+"Sb.AddSegment" = "Add segment";
+"Sb.Category" = "Category";
+"Sb.ChangeCategory" = "Change category";
+"Sb.ConfirmTitle" = "Submit these segments?";
+"Sb.Downvote" = "Downvote";
+"Sb.ExistingSegments" = "Existing segments";
+"Sb.HighlightNoEnd" = "Not needed for a highlight";
+"Sb.LeaveLandscape" = "Leave landscape mode to submit segments";
+"Sb.MarkHere" = "Tap to mark current time";
+"Sb.NewSegment" = "New segment";
+"Sb.NotChosen" = "Not chosen";
+"Sb.RemoveSegment" = "Remove segment";
+"Sb.SegmentEnd" = "Segment end";
+"Sb.SegmentStart" = "Segment start";
+"Sb.Submit" = "Submit";
+"Sb.SubmitDuplicate" = "This segment has already been submitted";
+"Sb.SubmitInvalid" = "Fill in the category and both boundaries first";
+"Sb.SubmitRejected" = "The auto moderator rejected this submission";
+"Sb.SubmitTooOften" = "Too many submissions. Please try again later";
+"Sb.Submitted" = "Segments submitted";
+"Sb.Submitting" = "Submitting…";
+"Sb.UndoVote" = "Undo vote";
+"Sb.Upvote" = "Upvote";
+"Sb.VoteSent" = "Vote sent";
+"SbWhitelistChannel" = "Whitelist this channel";
+"SegmentSkipFeedback" = "Haptic feedback";
+"SegmentSkipFeedbackDesc" = "Plays a haptic feedback when skipping a segment.";
+"SkipToHighlight" = "Skip to highlight";
+"SubmitSegments" = "Submit segments";
+
 /* Discord RPC */
 "DiscordRPC" = "Discord RPC 集成";
 "EnableDiscordRPC" = "启用 Discord RPC";
@@ -565,6 +787,10 @@
 "SleepTimer.SelectTime" = "选择时间";
 "SleepTimer.Start" = "开始";
 
+"SleepTimer.AddTime" = "Add time";
+"SleepTimer.ChapterPassed" = "Already played";
+"SleepTimer.SelectChapter" = "Select chapter";
+
 /* Developer section */
 "Developer" = "开发者";
 "FollowMe" = "在 X 上关注我";
@@ -575,6 +801,14 @@
 "VisitGithubDesc" = "为本项目加注星标，请求功能或报告问题。";
 "VisitTelegram" = "电报频道";
 "VisitTelegramDesc" = "随时了解最新的应用程序更新";
+
+"NotifyUpdates" = "Notify Updates";
+"NotifyUpdatesDesc" = "Shows an alert if a new version of the tweak is available";
+"Update.Dismiss" = "Dismiss";
+"Update.Message" = "A new version is available";
+"Update.Repo" = "Web repo";
+"Update.Skip" = "Skip this version";
+"UpdatePreferences" = "Updates";
 
 /* Credits section */
 "Credits" = "感谢";
